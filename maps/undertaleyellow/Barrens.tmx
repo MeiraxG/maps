@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="640" height="331" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="445">
+ <properties>
+  <property name="include" value="Map:Common Data"/>
+ </properties>
+ <imagelayer id="2" name="Barrens map" locked="1">
+  <image source="../../../../../Desktop/Barrens-map.png" width="10240" height="5296"/>
+ </imagelayer>
+ <objectgroup id="12" name="collectibles">
+  <object id="379" name="Prototype friend (backup)" x="8552" y="3393">
+   <properties>
+    <property name="description" value="Appears in [[Memory mode]] in WME if you haven't picked up Prototype friend in Solstice."/>
+    <property name="page" value="Memory mode"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="377" name="ProphetBot friend" x="2536" y="4737">
+   <properties>
+    <property name="description" value="After the Prophetbot encounter ends his friend entry collectible appears in WME."/>
+    <property name="page" value="Prophetbot"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="378" name="Blue theme" x="5256" y="4240">
+   <point/>
+  </object>
+  <object id="383" name="Cyan theme" x="1640" y="1904">
+   <point/>
+  </object>
+  <object id="385" name="Silver friend" x="7256" y="3233">
+   <properties>
+    <property name="description" value="After the chess game her friend entry collectible appears in WME."/>
+    <property name="page" value="Silver"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="381" name="Prophets wallpaper (backup)" x="2712" y="4931">
+   <properties>
+    <property name="description" value="Appears in [[Memory mode]] in WME if you haven't picked up Prophets wallpaper in Solstice."/>
+    <property name="page" value="Memory mode"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="386" name="Prophets wallpaper" x="8056" y="1651">
+   <properties>
+    <property name="description" value="WME Solstice route exclusive. If you don't pick it up its backup appears in the Outpost in [[Memory mode]]."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="382" name="Outpost wallpaper" x="2424" y="3363">
+   <point/>
+  </object>
+  <object id="384" name="Factory wallpaper" x="4072" y="1971">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="achievements" visible="0">
+  <object id="437" name="Chaotic Evil" x="524" y="2737">
+   <properties>
+    <property name="description">The metal rod can be combined with the lightblb to ask Niko to break the sun. This freaks Niko out and they refuse.
+
+This unlocks the Chaotic Evil achievement/badge. If Niko hasn't learned you exist Entity shows the default incorrect combination message but you still get the achievement.</property>
+    <property name="page" value="Chaotic Evil"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="438" name="Chaotic Evil" x="4088" y="4194">
+   <properties>
+    <property name="description">You can use the lightblb on the press machine to ask Niko to put the sun under the press. This freaks Niko out and they refuse. Alternatively you can combine the crowbar you can make here with the lightbulb.
+
+This unlocks the Chaotic Evil achievement/badge.</property>
+    <property name="page" value="Chaotic Evil"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="441" name="Shock" x="7532" y="3229">
+   <properties>
+    <property name="description">If Silver is at home, interacting with her power cell 3 times makes Niko touch it and get shocked against her wishes. Niko blames you and refuses to touch the cell again.
+
+This unlocks the Shock achievement/badge.
+
+Note that if Silver isn't home in New Game Plus Niko treats this power cell like the others and won't try to touch it.</property>
+    <property name="page" value="Shock"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="442" name="Shock" x="2496" y="3050">
+   <properties>
+    <property name="description">After reactivating the generator if Niko interacts with it one more time they get shocked. This unlocks the Shock achievement/badge.
+
+If you try to interact with it again, Niko refuses to touch it and steps backward.</property>
+    <property name="page" value="Shock"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="plot" visible="0">
+  <object id="1" name="Confusion" x="312" y="4344">
+   <properties>
+    <property name="description" value="Niko is confused by appearing here after a flash of light at the [[starting house]]."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" name="Tower sighted" x="1304" y="4328">
+   <properties>
+    <property name="description">After exiting the &quot;train&quot; for the first time, a cutscene shows Niko looking east at a very tall structure on the horizon and puts them here.  
+
+After this, the [[fast travel]] tutorial [[note]] is shown on Non-New Game+ runs of 2016 Remake.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="3" name="Inaccessible Prophetbot encounter" x="2584" y="4712">
+   <properties>
+    <property name="description">Like in the 2014 Release there is the second trigger of the Prophetbot encounter in case you went behind the Outpost building. However that is not possible to do in the 2016 Remake or World Machine Edition making this impossible to interact with without debug or modding.
+
+Every tile with x=33 make [[Prophetbot]] notice Niko. Then Prophetbot will say [Ah!] and move right and then up until Niko is 1 tile away. Then the proper encounter starts. 
+
+Due to expanded building being in the way if Niko stands on any tile except the one the marker is on Prophetbot gets stuck and the game softlocks. Unlike 2014 Release version there's also no code to make Prophetbot move down in case you trigger this from below.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="Prophetbot encounter" x="2472" y="4848">
+   <properties>
+    <property name="description" value="The (26, 23) tile and every tile below make [[Prophetbot]] turn around and notice Niko. The camera will pan if the Prophetbot is off-screen then Prophetbot will say [Ah!] and move down until Niko is on the same horizontal line and then 1 tile left. Then the proper encounter starts."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="Glitches spawn" x="5712" y="4240">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 96,0 96,-16 0,-16 0,0 96,0"/>
+  </object>
+  <object id="6" name="Glitches" x="5752" y="4130">
+   <properties>
+    <property name="description" value="After opening the safe and walking back some [[squares]] appear and scare Niko."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="Chess with Silver" x="7216" y="3192">
+   <properties>
+    <property name="description">A metal chess table covered in dust because Silver hasn't played in a while and the untamed Barrens robots can't play chess anyway.
+
+After recieving the [[amber]], Niko will ask [[Silver]] about repaying her somehow and agrees to play a game of chess.
+
+During the game, Silver opens up a bit about her history, tamed robots and explains that the cause of the sun's death was the decay of the world that won't stop after the sun is restored but completing the pilgrimage is the only option for Niko. She then proceeds to win the game.
+
+After the game the table is no longer dusty and the Silver friend collectible appears in WME.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="Gasmask needed" x="1352" y="2032">
+   <properties>
+    <property name="description" value="Without the [[gas mask]], Niko will quit this area automatically because the air in this area is unbreathable."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="Gasmask needed" x="5712" y="2320">
+   <properties>
+    <property name="description" value="Without the [[gas mask]], Niko will quit this area automatically because the air in this area is unbreathable."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="Prophetbot encounter" x="2464" y="4736">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 16,0 16,224 0,224 0,0"/>
+  </object>
+  <object id="11" name="Inaccessible Prophetbot encounter" x="2592" y="4608">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 -16,0 -16,400 0,400 0,0"/>
+  </object>
+  <object id="267" name="Silver introduction" x="7392" y="3280">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 32,0 32,-16 0,-16 0,0 32,0"/>
+  </object>
+  <object id="268" name="Silver introduction" x="7408" y="3264">
+   <properties>
+    <property name="description">Silver notices the lightbulb and Niko. She's surprised by the fact the messiah is not as tall as she expected and is a cat-looking child. Silver believes the sun can't fix the world but returning it might compel the incomprehensible force of the Tower to send Niko home.
+
+After introduction Silver can open the mineshaft for you.
+
+Due to the fact Silver wanders randomly she can walk past this trigger and get close enough to Niko to be interacted with before introduction. This sequence break is rather pointless because you need to go through the introduction cutscene to progress the game.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="277" name="Silver's power cell" x="7524" y="3229">
+   <properties>
+    <property name="description">If Silver is home, she asks Niko not to touch her back-up power cell. She says the main generator ran out of power less than a week after the old sun died. After that Niko will be able to notice names of owners of power cells written on them.
+
+If the minecart was summoned in the mineshaft in New Game Plus before Silver explained the power cells there's no way to educate Niko unless Solstice route is aborted.
+
+If Silver is not home and hasn't explained the power cells, Niko comments on the fact they don't know what this machine does and that it makes their hair stand up a little.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="278" name="Roped off entrance" x="8144" y="3875">
+   <properties>
+    <property name="description">Roped off mineshaft entrance with a warning sign prohiiting visitors unuthorized by the Head Engineer from entering the mines.
+
+If you have introduced yourself to Silver she will enter the scene to open up the entrance.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="279" name="Silver appears" x="7944" y="3928">
+   <properties>
+    <property name="description">Roped off mineshaft entrance with a warning sign prohiiting visitors unuthorized by the Head Engineer from entering the mines.
+
+If you have introduced yourself to Silver and interact with the roped off entrance she will appear here and go towards the side of the entrance Niko is further away from. She then opens up the mines and accompanies your first visit.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="283" name="edge" x="8432" y="3408">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,32 16,32 16,0 0,0"/>
+  </object>
+  <object id="284" name="edge" x="8464" y="3408">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="286" name="Safety violation/Prophetbot vision" x="8456" y="3392">
+   <properties>
+    <property name="description">By standing close to the edge Niko can see a faint yellow glow in the distance. Silver then tells Niko to stop the safety violation and walks closer. She then explains the mines abandoned after the old sun died and one robot who went back. She says Niko would need a vehicle to proceed. After this Niko can exit the mineshaft.
+
+In the New Game Plus, Niko sees a vision of a robot with a singular yellow eye and Silver walks in closer than usual to check if Niko is ok. She then explains the robot in more detail. 
+
+After she mentions that the Author told her everything she knows about the robot the [[strange journal]] starts to glow. It has the insignia of the Author and the fact Niko woke up with it have Silver intrigued. She then proceeds to explain yellow phosphor and shows the [[amber]] to Niko. Silver encourages Niko to read the glowing journal.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="289" name="No exit" x="8144" y="3568">
+   <properties>
+    <property name="description">The first visit can't end until Niko stands on the edge of the collapsed path to the deeper mines.
+
+After you exit Silver goes home and Niko gets placed at the lookout point.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="387" name="Minecart" x="8408" y="3400">
+   <properties>
+    <property name="description">The vehicle Niko can use to safely proceed into the Mines and onto the Solstice route or to return. Spawned by solving the glowing journal puzzle in the mineshaft in New Game Plus.
+
+After you get into the minecart for the first time Silver starts following you closely behind. Actually, she follows an invisible Silver that keeps her from clipping into minecart graphics. When you're in a minecart and talk to Silver you actually talk to the invisible clone and interactions of the actual Silver are left unused.
+
+You can come back later but with Silvers blocking your way back the only available path is forward.
+
+Moves 2 tiles forward when entered. Niko can't move vertically in a minecart.
+
+If you abort the Solstice route the Entity removes the minecart and you cannot get it back on the same playthrough.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="390" name="Minecart dismount" x="8416" y="3424">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="396" name="Extra hallway" x="8056" y="2920">
+   <properties>
+    <property name="description">The first time you go to the Deep mines there's an extra hallway map in the way. 
+
+It becomes inaccessible without glitches after you reach Deep mines.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="397" name="Entity asks to turn around" x="8440" y="2912">
+   <properties>
+    <property name="description">Entity stops you to ask you to turn back because you're going out of bounds and putting Niko in danger by pursuing the new path the Author made.
+
+Now if you talk to Silver Niko is distressed and you have an option to turn back and abort the Solstice route. If you turn back the Entity puts Niko at the dismount point in the mineshaft and deletes the minecart preventing you from going back on the same playthrough. Everything is back to the protocol. </property>
+   </properties>
+   <point/>
+  </object>
+  <object id="398" name="Entity asks to turn around" x="8432" y="2928">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="399" name="Exit collapses " x="8608" y="2304">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 16,0 16,48 0,48 0,0"/>
+  </object>
+  <object id="400" name="Minecart dismount" x="8560" y="2320">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,16 16,16 16,0 0,0"/>
+  </object>
+  <object id="401" name="Minecart" x="8584" y="2327">
+   <properties>
+    <property name="description">Minecart stops here and can be re-entered to go back. Moves 2 tiles forward when entered. Niko can't move vertically in a minecart.
+
+Can be used anytime until it gets covered in squares and the entrance caves in. After that Niko states they cannot use it anymore.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="402" name="Exit collapses " x="8616" y="2304">
+   <properties>
+    <property name="description">After Prototype meets Silver and forms a plan the Entity remembers the previous playthroughs. It questions why you came back and brought Niko back after beating the game and then chose to follow the &quot;ghost&quot; of the Author, his book.
+
+Then the Entity asks what did Niko learn in the backroom to make them upset. Then it starts to lose its temper and lashes out. A lot of squares appear putting the minecart out of comission and collapsing the way back.
+
+Everyone rushes out to see what is happening. Prototype has another way out in the backroom. He and Silver return to the backroom. They walk through the power cell on their way.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="403" name="Silver moves to this room" x="8568" y="2320">
+   <properties>
+    <property name="description">After reaching the end of the tracks one of the terminal reactivates and Silver stays to check it out.
+
+Rowbot gets covered in squares cutting you off from completing the normal route.
+
+This tile later turns into squares to which Niko says they shouldn't get too close.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="404" name="Observation terminal" x="8708" y="2244">
+   <properties>
+    <property name="description">Silver stays to investingate the &quot;observation room&quot; terminal that reactivated. She figures it runs on a separate power source and its data formats are new or encrypted.
+
+After recieving the [[memory disk]] Silver discovers a lot of video feeds of various Barrens locations from a top-down perspective. She is bothered by the cameras have to be in the air and wants to investigate them when she gets back.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="411" name="Proto intro/Silver enters" x="9344" y="2208">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,16 32,16 32,0 0,0"/>
+  </object>
+  <object id="420" name="Proto intro/Silver enters" x="9360" y="2208">
+   <properties>
+    <property name="description">Prototype turns around and recognizes Niko as a messiah by the light in their eyes or by their name if Rue was befriended on a previous New Game Plus run.
+
+Prototype stores his memory on a floppy disk which was intentionally blanked for safety reasons. Prototype gives Niko the disk so they can restore his memory using the terminal in the room.
+
+After the proper introduction to the world Silver enters the room on the side Niko isn't. She recognizes him but he asks her to show him the amber to make sure she is a friend of the Author. If Niko has the amber they show it instead.
+
+He tasks Silver with protecting the Niko because the journey will be extra dangerous. She leaves preparing to exit the mines. Niko tries to ask her about not being real but Prototype asks not to do that and refuses to answer how he knows everything.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="421" name="Emergency exit" x="9432" y="2168">
+   <properties>
+    <property name="description">After the exit collapses Silver and Prototype go back to this room.
+
+Prototype reveals that there's an emergency exit behind his terminal. He can't move it alone and would rather dig around it than ask Silver.
+
+She decides to push the terminal to the side on her own and goes through the doorway. Prototype calls her a showoff and then follows her.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="422" name="New minecart" x="8344" y="1688">
+   <properties>
+    <property name="description">A new minecart is waiting for Niko in this new tunnel. Silver didn't see it on the camera feeds and Proto asks Niko to hurry up.
+
+Prototype has an invisible clone with inverted color palette in front of him to keep him from clipping into the minecart graphics.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="423" name="Entity distabilizes" x="8664" y="1696">
+   <properties>
+    <property name="description">Entity destabilizes and the tunnel collapses and crushes Silver. She yells at Prototype to take Niko and leave her behind. Then squares spawn on top of her and Niko and Prototype run off.
+
+In WME the wallpaper changes to black, the app icons start to visually glitch out and there's now a chance to see a picture of Niko with no pupils in the Gallery.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="424" name="Silence" x="8984" y="712">
+   <properties>
+    <property name="description" value="Shocked Prototype and Niko won't talk to each other."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="425" name="No more Prototype" x="9064" y="704">
+   <properties>
+    <property name="description" value="Squares start spawning around Prototype so he gives you the floppy disk with his memories and moves back. Niko runs off alone as squares contunue to spawn."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="426" name="Can't go back" x="9208" y="1208">
+   <properties>
+    <property name="description" value="If you try to go back, distressed Niko comments on the fact you can't go back."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="427" name="Inaccessible Niko talk" x="9544" y="704">
+   <properties>
+    <property name="description">Niko faces the player to say &quot;And that robot was saying something. That you keep bringing me back.&quot;
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="428" name="Inaccessible Niko talk" x="9704" y="704">
+   <properties>
+    <property name="description">Niko faces the player to say &quot;We've been through all this before, haven't we. How many times?&quot;. Then you get to choose 1 of 2 dialogue options. 
+
+If you choose &quot;1&quot; Niko says &quot;I see.&quot; If you choose &quot;So Many&quot; Niko says &quot;That's a lot of times!&quot;
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="431" name="They're both gone" x="9384" y="1200">
+   <properties>
+    <property name="description">Niko is distressed by demise of Silver and Prototype and struggles to talk. They turn to face the player and say nothing.
+
+Wind ambiance starts.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="432" name="Is the world not real" x="9608" y="1200">
+   <properties>
+    <property name="description" value="Niko faces you to ask if what the Prophetbot 0 told about the world is true. If you say &quot;No.&quot; Niko doesn't believe you and regardless of your answer Niko talks about everything adding up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="433" name="Inaccessible Niko talk" x="9736" y="1056">
+   <properties>
+    <property name="description">Trigger for Niko to step on placed Out of Bounds.
+
+Distressed Niko faces you to ask why you didn't tell them anything about the Author and his plan to fix things.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="npcs">
+  <object id="102" name="Prophetbot" x="2520" y="4722">
+   <properties>
+    <property name="description">The robot made with a sole purpose of greeting the messiah from the prophecy. Not tamed.
+
+When [[Niko]] gets close, [[Prophetbot]] notices the [[lightbulb]] and approaches Niko, excited to provide the savior  with vital information.
+
+Prophetbot can explain (all options except &quot;the computer/about [[player]]&quot; are optional and can be skipped with Cancel key):
+
+1) The history and regions of the [[world]] and the Tower that housed the old sun.
+
+2) The old and new [[sun]]s, the phosphor that stores their energy, and the reliance of the world on light for survival.
+
+3.1) The computer saying the name of the [[player]], who is revealed to be the god of the world. The Prophetbot will teach Niko to communicate with the player directly. This presents an opportunity for the player to change their name. Certain names cause unique reactions from Niko. Prophetbot will also encourage Niko to look for the player's guidance.
+
+3.2)In the [[New Game Plus]] Niko recalls saying the player's name right after waking up and figures out how to contact them without Prophetbot's guidance. Niko will ask the player if they have met you before. This doesn't give you an opportunity to rename. In the 2016 Remake only you have to exahaust every dialogue option in order to make Prophetbot let you go.
+
+4) Prophetbot doesn't know how Niko can go home, but their mission is to save the world.
+
+After answering the questions Prophetbot wishes Niko luck and starts wandering aimlessly. This also spawns him friend entry collectible in WME.
+
+If you talk to Prophetbot again he can explain the Barrens, the prophecy and the Tower. After you recieve the [[amber]] you can say goodbye to him and thank him for help.</property>
+    <property name="page" value="Prophetbot"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="103" name="Silver" x="7368" y="3205">
+   <properties>
+    <property name="description">The Barrens' head engineer, that stayed when everyone else left the Barrens.
+
+She has the [[amber]] neccessary to make the [[Rowbot]] remember the way to the [[Glen]].
+
+Can explain the history of the [[Tower]] and speculate that the force inside it is the Niko's way to return home.
+
+She will try to read the [[strange journal]] if you give it to her but she can't. Dialogue changes in New Game Plus if she saw the journal glowing but Niko left the mineshaft.
+
+Moves to the mineshaft if the minecart is summoned and moves back if the Solstice route is aborted. She cannot give [[amber]] while at the mineshaft and if she moves into the Deeper mines the Solstice route can no longer be aborted.</property>
+    <property name="page" value="Silver"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="205" name="Depowered robot" x="1416" y="4308">
+   <properties>
+    <property name="description">The [[Entity]] comments on the fact this a robot with no power. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead.
+
+The robot becomes powered after Outpost generator is reactivated. When powered, the robot wanders aimlessly and states that it is functional.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="210" name="Depowered robot" x="2328" y="4052">
+   <properties>
+    <property name="description" value="A robot that becomes powered after Outpost generator is reactivated. When powered, the robot continuously walks 5 tiles right, looks up and then returns back in its default position.  Also states that it is functional and can walk."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="211" name="Depowered robot" x="2520" y="4022">
+   <properties>
+    <property name="description" value="A robot that becomes powered after Outpost generator is reactivated. When powered, the robot continues to sit on the floor.  It also states that it is functional and asks Niko if they did power the generator."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="231" name="Depowered robot" x="3624" y="4564">
+   <properties>
+    <property name="description" value="A robot that becomes powered after Outpost generator is reactivated. When powered, the robot continuously walks 5 tiles right, looks up and then returns back in its default position.  Also greets Niko and calls them an &quot;organic life form&quot;."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="232" name="Depowered robot" x="3752" y="4544">
+   <properties>
+    <property name="description">A robot that becomes powered after Outpost generator is reactivated. When powered, the robot continues to sit on the  conveyor belt.
+It also says hi to Niko and states that it has power again.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="233" name="Depowered robot" x="3976" y="4544">
+   <properties>
+    <property name="description">A robot that becomes powered after Outpost generator is reactivated. When powered, the robot continues to sit on the  conveyor belt.
+It also says hello to Niko.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="260" name="Depowered garden robot" x="6968" y="3636">
+   <properties>
+    <property name="description">A robot that becomes powered after Outpost generator is reactivated. When powered, the robot stands up and starts looking north.
+It calls Niko a small pesron and introduces you to the lookout point and the quarry. He also points out the head engineer and the mines entrance are located further east.
+
+Its internal name is &quot;garden&quot;.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="315" name="Depowered robot" x="7160" y="1556">
+   <properties>
+    <property name="description">The robot becomes powered after Outpost generator is reactivated. When powered, the robot wanders aimlessly. It also greets Niko and states that robot assembly and repair services have been discontinued at the Barrens so if they need something they should contact the Head Engineer.
+
+Unpowered version has no interactions and is inaccessible on the current patch.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="316" name="Depowered robot" x="6792" y="1588">
+   <properties>
+    <property name="description">The robot becomes powered after Outpost generator is reactivated. When powered, the robot wanders aimlessly. It welcomes them into the old chemical processing plant and states that most of the equipment has been already relocated.
+
+Unpowered version has no interactions and is inaccessible on the current patch.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="332" name="Robot" x="504" y="1734">
+   <properties>
+    <property name="description" value="A robot sitring on the edge. It states that the sky is dark and asks Niko when the sun will be back up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="339" name="Blue Guardian" x="4408" y="1214">
+   <properties>
+    <property name="description">Giant robot guarding what remains of the the residential area. Was left behind to guard an empty settlement because it is not tamed. Badly damaged, Blue Guardian constantly turns on and off and emits sparks from the left side of its body.
+
+It suggests that Niko should evacuate or talk to the Prophetbot who was built with the sole purpose of greeting the messiah and is incapable to speak with anyone else.
+
+After talking to the Guardian once, the robot on the left side of building 119 in the area starts following Niko but the guardian says to not be alarmed by robot followers as they only want to ensure safety.</property>
+    <property name="page" value="Blue Guardian"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="340" name="UNIT RM-2883417" x="4072" y="1172">
+   <properties>
+    <property name="description">A robot standing in place asking if Niko needs any help.
+
+After Niko talks to the Blue Guardian this robot starts to follow Niko outdoors. Introduces itself and activates the second follower after walking into Niko for the first time.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="341" name="UNIT RT-3847201" x="2904" y="1076">
+   <properties>
+    <property name="description">A robot standing in place asking if Niko needs any help.
+
+After UNIT RM-2883417 introduces itself, this robot starts to follow Niko outdoors even though Niko already has an escort. Introduces itself after walking into Niko for the first time.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="342" name="Robot that is supposed to walk in circles" x="3192" y="1044">
+   <properties>
+    <property name="description">A robot that greets Niko and points towards the infirmary.
+
+It's supposed to walk in circles in front of the infirmary door, but in the 2016 Remake it walks into the big pool and gets permanently stuck. Its route was fixed in WME.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="351" name="Infirmary robot" x="3384" y="372">
+   <properties>
+    <property name="description" value="A robot that weclomes Niko to the Infirmary and scans them for injuries. After detecting none it says Niko is good to go."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="352" name="Infirmary robot" x="3176" y="336">
+   <properties>
+    <property name="description">A robot sitting at the table and playing with some sort of rubbery tape. It asks Niko if they seek admission into the Infirmary.
+
+In WME it has weird phisics and pulls Niko to the middle of the table if you walk into it.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="375" name="server room robot" x="3736" y="1940">
+   <properties>
+    <property name="description" value="A robot that continuously walks bac and forth 6 tiles right and then 6 tiles left. It constantly checks the broken terminals and finds the fact they don't respond a problem"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="376" name="server room robot" x="4024" y="1940">
+   <properties>
+    <property name="description" value="The robot states that all terminals don't boot and that it is unsure what to do."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="412" name="Prototype" x="9352" y="2145">
+   <properties>
+    <property name="description">Prophetbot's predecessor, a tamed robot from the [[Old World]] waiting for a second chance to see a messiah.
+
+Prototype stores his memory on a floppy disk which was intentionally blanked for safety reasons. He can eject/insert it using a drive on his head.
+
+After his memory is restored he reveals the truth about the Old and the simulated worlds, the player and the goals and stakes of the solstice route. Niko remembers previous playthroughs and becomes very upset. From now on after you reload the game Niko reaction is silence.
+
+Prototype instructs Niko to reach the Glen via Rowbot or finding a new boat and then stops talking to contact Cedric or Rue.
+
+After meeting Silver and exit collapsing he reveals the emergency exit behind his terminal but he can't move it alone so you'll have to ask Silver to do it.</property>
+    <property name="page" value="Prototype"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="443" name="Friend on the wall" x="3208" y="1776">
+   <properties>
+    <property name="description">The camera pans up and down if you interact with the wall, revealing the full height and a robot sitting on it. 
+
+If the robot is visible Niko asks it what it's doing and the robot answers that it's stationed here by itself. The part of the wall with the robot can be triggered by walking into it.
+
+The robot's internal name is &quot;friend&quot;.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="puzzles">
+  <object id="104" name="Safe" x="5767" y="4182">
+   <properties>
+    <property name="description">A safe locked with a random 6 digit code which could be anything from 100000 to 999999. To get the code you need to use the computer in the Outpost. The code is not generated until you do, so blindly bruteforcing it is impossible.
+
+The safe contains the [[gas mask]] and the [[strange journal]]. With the gas mask, Niko can explore the natural gas vent zones, the Swamp and Old factory. The journal has no relevance until [[Glen]] but you can show it to [[Silver]].
+
+In the [[New Game Plus]] the safe contains only the gas mask.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="228" name="Generator" x="2480" y="3050">
+   <properties>
+    <property name="description" value="A big industrial machine with a rectangular hole in the middle. Can be reactivated using the [[charged battery]] to power a lot of machinery and robots across the Barrens."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="288" name="Summoning the minecart" x="8360" y="3399">
+   <properties>
+    <property name="description">In the New Game Plus, a clover appears here. It marks the correct tile to stand on to summon the minecart with the glowing journal.
+
+After seeing the minecart Silver stays in the mineshaft leaving her home and stopping being able to give Niko the [[amber]] unless you abort the Solstice route. If you summoned the minecart but Silver has left Niko goes to find her off-screen.
+
+Both are confused by the minecart appearance because nobody was looking but Silver rationalizes it by assuming a minecart has detected motion and sent itself over.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="317" name="Door boards" x="6928" y="1536">
+   <properties>
+    <property name="description">The second floor door is boarded up and the [[crowbar]] is needed to unblock it.
+
+There's an interaction for the metal pipe but it's inacessible on the current patch.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="414" name="Tracking map puzzle" x="9360" y="2080">
+   <properties>
+    <property name="description">The Prophetbot 0 backup system terminal requires you to configure the Residential tracking machine so it is up to date. 
+
+There are 6 buttons, one for each Dormitory building and 3 symbols to describe what is inside the buildings. The game expects you to take the minecart back and replaying the game until reaching the Dormitories. However, you can save the blue [[charged battery]] by not revisiting the Dormitories and use it to progress the story.
+
+You can do an extra action after the last button press because the solution check is delayed.
+
+The solution is always the same:
+
+110 has a robot beyond repair = Robot
+
+117 has nothing but letter = Empty
+
+112 is the infirmary with medical robots = Cross
+
+118 has a robot sitting on the capsule wall = Robot
+
+113 has nothing but a note and a jar of shrimp = Empty 
+
+119 has the power cell of the Blue Guardian = Electricity
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="212" name="Computer" x="2456" y="4025">
+   <properties>
+    <property name="description">A PC with a blue screen that turns on after Outpost generator is reactivated. It congratulates you on your progress and asks you to look into the Documents folder for the &quot;DOCUMENT.oneshot.txt&quot; file containing the 6 digit code of the safe in the Cliffs. After the safe is opened the computer turns back off. 
+
+In the New Game Plus the document is drastically shorter because it doesnt contain a corrupted letter from the Author explaining the safe and its location and contents.
+
+Interacting with the computer if required to open the safe because the code is not even generated until you talk to the PC. The default code value is 0 and the safe is coded to ignore 0.</property>
+    <property name="page" value="Entity"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="signs" visible="0">
+  <object id="108" name="&quot;Three Laws of Robotics&quot;" x="2312" y="3844">
+   <properties>
+    <property name="description">&lt;poem&gt;''1. A robot may not
+''injure a living person
+''or, through inaction,
+''allow a person to come
+''to harm.
+
+''2. A robot must obey
+''the orders given to it
+''by people, except where
+''such orders would
+''conflict with the First
+''Law.
+
+''3. A robot must protect
+''its own existence as
+''long as such protection
+''does not conflict with
+''the First or Second
+''Law.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="109" name="Map of the world" x="2408" y="3842">
+   <properties>
+    <property name="description" value="[[file:cg map.png]]"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="&quot;Natural Resources of The Barrens&quot;" x="2584" y="3844">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this poster being faded.
+
+''REMINDER TO ALL
+''WORKERS:
+
+''The rarest form of
+''blue phosphor is found
+''during the phosphor
+''shrimp's spawn period.
+
+''If you observe a pond
+''with a bubbled-over
+''surface, please contact
+''management immediately!
+
+''We will dispatch a
+''harvest team ASAP.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="&quot;Hiring&quot;" x="2776" y="3844">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this poster being faded.
+
+''Five new positions
+''available at the mines.
+
+''Housing and other
+''provisions are included
+''upon hiring.
+
+''First come, first serve.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" name="Prophetbot's power cell" x="2424" y="3261">
+   <properties>
+    <property name="description">Niko comments on the fact they don't know what this machine does and that it makes their hair stand up a little.
+
+Niko is able to understand that this is the [[Prophetbot]]'s power cell after inspecting the similar power cell at the [[Silver]]'s cabin while she's home.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="118" name="Self-charging battery note" x="2344" y="3936">
+   <properties>
+    <property name="description">&lt;poem&gt;''REVOLUTIONARY!
+''SELF-CHARGING SOLAR
+''BATTERY MODEL N-87
+''(One year warranty
+''included)
+
+''Simply place your
+''self-charging battery
+''in full daylight with
+''the lens facing up.
+
+''Charges in seconds, no
+''external power is
+''needed.
+
+''TROUBLESHOOTING MANUAL.
+
+''If the battery fails to
+''charge, check to see if
+''the lens on the front
+''side has not been
+''dislodged during
+''transport.
+
+''One charge cycle will
+''last about ten days.
+
+''If you notice a decline
+''in the charge cycle
+''within the warranty
+''period, please contact
+''the manufacturer.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="119" name="&quot;Miner accident&quot;" x="2648" y="4048">
+   <properties>
+    <property name="description">&lt;poem&gt;''The use of a robot as
+''our replacement head
+''engineer seems
+''unorthodox.
+
+''...especially the one
+''responsible for last
+''year's incident.
+
+''I suppose they had to
+''get her away from the
+''city, but that doesn't
+''make it easier to
+''swallow for those of us
+''who work here!
+
+''I hope that man knows
+''what he's doing.
+
+''--Management&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" name="Inaccessible dock view" x="1552" y="2296">
+   <properties>
+    <property name="description">The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead.
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" name="Dock view" x="1504" y="2520">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="145" name="Dock view" x="1472" y="2696">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="146" name="Dock view" x="1488" y="2776">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" name="Dock view" x="1504" y="2888">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="148" name="Dock view" x="1568" y="3176">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="149" name="Dock view" x="1472" y="3304">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" name="Inaccessible dock view" x="1456" y="3400">
+   <properties>
+    <property name="description">The [[Entity]] comments on the horizon glowing a faint green. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead.
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="153" name="Shrimp jar needs refilling" x="7544" y="3236">
+   <properties>
+    <property name="description">Niko comments on lots of tiny glowing shrimp swimming in this jar and that a lot of them are not glowing or moving.
+
+If Silver is home, she's shocked because the jar she refilled two days ago needs to be replaced already. She says she will go to the shore later and that the jars don't last very long.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="155" name="Shrimp jar" x="7272" y="3188">
+   <properties>
+    <property name="description" value="Niko comments on this being a jar full of glowing shrimp covered with a wire mesh at the top."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="156" name="Shrimp jar" x="7320" y="3204">
+   <properties>
+    <property name="description" value="Niko comments on this being a jar full of glowing shrimp covered with a wire mesh at the top."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="157" name="Shrimp jar" x="7448" y="3204">
+   <properties>
+    <property name="description" value="Niko comments on lots of tiny glowing shrimp swimming in this jar."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="160" name="Kip's letter" x="7464" y="3232">
+   <properties>
+    <property name="description">&lt;poem&gt;''Dear Silver,
+
+''I heard the news about
+''the mines.
+
+''I'm sorry... I can't
+''imagine what you're
+''feeling.
+
+''It's been two weeks...
+
+''I know it must be hard,
+''but maybe it's better
+''that you came back...
+
+''It's only a matter of
+''time before the rowbots
+''are recalled.
+
+''At least let me know
+''you got my message,
+''okay?
+
+''-Kip&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="161" name="&quot;Vents, shrimp and gas masks note&quot;" x="1064" y="1296">
+   <properties>
+    <property name="description">&lt;poem&gt;''The amount of noxious fumes emitted by the 
+''natural gas vents caught our team off-guard.
+''With such a high concentration, it seemed
+''impossible that anything with lungs could exist.
+
+''It remained quite a mystery until our
+''scientists realized the shrimp scattered
+''in the pools were actually consuming it.
+
+''Without those shrimp, life wouldn't be.
+''It's kind of depressing to think that we
+''can't thank them.
+
+''Still, we wore masks to be safe, especially
+''around active vent sites.
+''The replacement of our workforce by robots
+''soon rendered masks unecessary.
+
+''I wonder what happened to them all? 
+''I can't even remember where I placed mine.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="162" name="Robot beyond repair" x="1304" y="4155">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="165" name="&quot;Death note&quot;" x="5608" y="4144">
+   <properties>
+    <property name="description">&lt;poem&gt;''The sun will not return
+''and the abyss is calling
+''my name.
+
+''I'm sorry, everyone...
+
+''...for choosing to leave
+''before the darkness
+''suffocates us all.
+
+Niko comments on this by staying silent.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="166" name="&quot;Cleaning properties of the acid gas&quot;" x="5416" y="1280">
+   <properties>
+    <property name="description">&lt;poem&gt;''There's something weird
+''about the robots who
+''get sent to work near
+''the gas fields.
+
+''They appear to
+''accumulate rust at a
+''much slower rate than
+''the others.
+
+''The few who work
+''directly with gas
+''harvesting look
+''practically new!
+
+''Is that a result of the
+''atmosphere? Or am I
+''just seeing things?&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="168" name="Mom letter" x="2776" y="2032">
+   <properties>
+    <property name="description">&lt;poem&gt;''Hey sweetie,
+
+''Six more weeks until
+''you can come home!
+
+''&lt;nowiki&gt;'&lt;/nowiki&gt;bout time, huh?
+
+''Gosh, I can't imagine
+''living in that awful
+''capsule wall...dorm...
+''thing!
+
+''But guess what? Soon
+''you'll get to sleep in a
+''real bed and eat real
+''food again!
+
+''Write back soon!
+
+''-love, mom.
+
+Niko then says &quot;Aww...&quot;&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="169" name="&quot;Ocean note&quot;" x="4056" y="400">
+   <properties>
+    <property name="description">&lt;poem&gt;''I remember being taught
+''in school about how the
+''waters surrounding the
+''forest stretched until
+''the boundries of space.
+
+''But at some point, the
+''prehistoric oceans
+''receded, forming what
+''is now the Barrens.
+
+''I wonder where all that
+''water went...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="170" name="Cleaning solvent recipe page 1" x="7176" y="1616">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this likely being a page ripped from a book.
+
+''-cannot overstate the
+''importance of cleaning
+''solvents in this
+''environment.
+
+''Here is a simple recipe
+''using the alternative
+''method discussed in the
+''last chapter, utilizing
+''the natural properties
+''of blue phosphor.
+
+''Reagents:
+
+''-Acidic gas
+
+''-Blue phosphor (rare form)
+
+''Instructions:
+
+''1) In a well-ventilated
+''area, direct the gas
+''into your container of
+''choice.
+
+''Seal immediately.
+
+Niko comments on this being the end of the page.&lt;/poem&gt;</property>
+    <property name="page" value="Bottle of acid"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="202" name="Dead robot head" x="1320" y="4002">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="203" name="Robot beyond repair" x="1224" y="4428">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="204" name="Robot beyond repair" x="1496" y="4507">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="206" name="Computer terminals" x="344" y="4288">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are broken computer terminals. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="207" name="Computer terminals" x="552" y="4288">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are broken computer terminals. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="208" name="Robot beyond repair" x="2344" y="4652">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="209" name="Robot beyond repair" x="2360" y="4891">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are robot remains. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="218" name="Generator and power cells page" x="2568" y="3280">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this being a page with faded ink.
+
+''-able to provide power
+''to all robots and
+''machinery in the area
+''via a large
+''electromagnetic field.
+
+''Maintenance efforts are
+''quite high, as expected.
+
+''We have provided
+''customized backup cells
+''for the few most
+''important robots.
+
+''Their electromagnetic
+''fields are much weaker,
+''and the signals are
+''highly specific.
+
+''In other words, these
+''small cells can only
+''charge one single-
+
+Niko comments on the rest of the page being unreadable.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="221" name="Dusty shelves" x="2384" y="3966">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="222" name="Dusty shelves" x="2592" y="3966">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="223" name="Dusty shelves" x="2592" y="3886">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="224" name="Dusty shelves" x="2400" y="3886">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty. The segment of shelves behind the box and the battery note has no interactions."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="225" name="Dusty shelves" x="2672" y="3840">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="226" name="Dusty shelves" x="2472" y="3312">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="227" name="Dusty shelves" x="2448" y="3200">
+   <properties>
+    <property name="description" value="Niko comments on the shelves being dusty."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="229" name="Shrimp jar" x="2440" y="3268">
+   <properties>
+    <property name="description" value="Niko comments on a lot of small, glowing shrimp swimming in the jar."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="234" name="Big press machine" x="3720" y="4498">
+   <properties>
+    <property name="description" value="Niko comments on this machine looking like its used to crush metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="235" name="Big press machine" x="3592" y="4498">
+   <properties>
+    <property name="description" value="Niko comments on this machine looking like its used to crush metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="236" name="Big press machine" x="4072" y="4498">
+   <properties>
+    <property name="description" value="Niko comments on this machine looking like its used to crush metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="237" name="Big press machine" x="3592" y="4194">
+   <properties>
+    <property name="description" value="Niko comments on this machine looking like its used to crush metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="238" name="Big press machine" x="3720" y="4194">
+   <properties>
+    <property name="description" value="Niko comments on this machine looking like its used to crush metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="239" name="Dead robot arm" x="3752" y="4240">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact this is what's left of a robot's arm."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="240" name="Robot piece" x="3720" y="4236">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a badly damaged piece of a robot."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="242" name="Dead robot head" x="3704" y="4242">
+   <properties>
+    <property name="description" value="Niko is distressed by the fact all that remains of a robot is a head."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="243" name="Robot beyond repair" x="3640" y="4235">
+   <properties>
+    <property name="description">Niko comments on the fact this a robot beyond repair.
+
+In WME it has weird phisics and pulls Niko into its center if you walk into it.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="244" name="Dead robot arm" x="3624" y="4272">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact this is what's left of a robot's arm."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="245" name="Dead robot head" x="3656" y="4208">
+   <properties>
+    <property name="description" value="Niko is distressed by the fact all that remains of a robot is a head."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="246" name="?" x="3544" y="4248">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact they don't even know what this is supposed to be."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="247" name="?" x="4024" y="4248">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact they don't even know what this is supposed to be."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="248" name="Dead robot head" x="4104" y="4242">
+   <properties>
+    <property name="description" value="Niko is distressed by the fact all that remains of a robot is a head."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="249" name="Dead robot arm" x="4152" y="4241">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact this is what's left of a robot's arm."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="250" name="Dead robot head" x="3960" y="4192">
+   <properties>
+    <property name="description" value="Niko is distressed by the fact all that remains of a robot is a head."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="251" name="Robot piece" x="3992" y="4188">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a badly damaged piece of a robot."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="252" name="Dead robot arm" x="4024" y="4192">
+   <properties>
+    <property name="description" value="Niko is saddened by the fact this is what's left of a robot's arm."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="253" name="Robot piece" x="4040" y="4188">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a badly damaged piece of a robot."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="254" name="Dead robot arm" x="4056" y="4240">
+   <properties>
+    <property name="description">Niko is saddened by the fact this is what's left of a robot's arm.
+
+Can't be interacted with from below the conveyor belt.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="255" name="&quot;Gas masks note&quot;" x="6024" y="4480">
+   <properties>
+    <property name="description">&lt;poem&gt;''Although the poisonous
+''gas is highly localized
+''to the vent zones,
+''Barrens workers were
+''still recommended to
+''wear gas masks.
+
+''These masks were
+''mandatory around active
+''vent sites, of course.
+
+''As more and more of
+''the workforce got
+''replaced by robots, we
+''found ourselves with a
+''surplus of abandoned
+''gas masks.
+
+''It seemed like a waste
+''to get rid of them all,
+''so we kept a few for
+''emergencies.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="256" name="&quot;Stronger robots page&quot;" x="6136" y="4160">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this being a torn page with faded ink.
+
+''XX/XX/XX
+
+''With the mining
+''operations going
+''smoothly, materials are
+''no longer our limiting
+''factor.
+
+''We will be able to build
+''more resilient robots,
+''both in body and mind.
+
+''Specifically, the
+''discovery of metal alloy
+''291 will likely allow the
+''development of highly
+''efficient circuitry.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="257" name="Inaccessible gas vent" x="5816" y="3458">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="258" name="Inaccessible gas vent" x="5800" y="3378">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="259" name="Inaccessible gas vent" x="5624" y="3426">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="264" name="Clovers" x="6968" y="3760">
+   <properties>
+    <property name="description">Niko comments on the strange black plants looking like clovers.
+
+The ones next to the robot have no interactions to prevent stacking interactions.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="265" name="Clovers" x="7336" y="3888">
+   <properties>
+    <property name="description" value="Niko comments on the strange black plants looking like clovers."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="266" name="Inaccessible clovers" x="7504" y="3880">
+   <properties>
+    <property name="description">Niko comments on the strange black plants looking like clovers.
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="271" name="Photo" x="7336" y="3170">
+   <properties>
+    <property name="description" value="Niko comments on this being a photo of 2 people behind a foggy glass."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="273" name="Small chair" x="7237" y="3209">
+   <properties>
+    <property name="description">Niko comments on the fact the chess table has 2 small chairs.
+
+Silver sits on it during the game.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="274" name="Small chair" x="7196" y="3209">
+   <properties>
+    <property name="description">Niko comments on the fact the chess table has 2 small chairs.
+
+Niko sits on it during the game.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="275" name="Crates" x="7160" y="3200">
+   <properties>
+    <property name="description" value="Niko comments on this being a crate."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="276" name="Metal bed" x="7168" y="3244">
+   <properties>
+    <property name="description" value="Niko comments on this being a metal bed which doesn't look very comfortable."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="280" name="Another shrimp jar" x="8040" y="3364">
+   <properties>
+    <property name="description" value="Niko comments on this being &quot;another one of those shrimp jars&quot;."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="281" name="Another shrimp jar" x="8264" y="3364">
+   <properties>
+    <property name="description" value="Niko comments on this being &quot;another one of those shrimp jars&quot;."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="291" name="Inaccessible gas vent" x="5768" y="2355">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="292" name="Inaccessible gas vent" x="5592" y="2450">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="293" name="Inaccessible gas vent" x="5528" y="2402">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears. Can actually be accessed using glitches.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="294" name="Gas vent" x="5832" y="2242">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="295" name="Gas vent" x="5736" y="2194">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="296" name="Gas vent" x="5592" y="2226">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="297" name="Gas vent" x="5640" y="2130">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="298" name="Gas vent" x="5528" y="2098">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="299" name="Gas vent" x="5896" y="2066">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="300" name="Gas vent" x="5816" y="1986">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="301" name="Gas vent" x="5912" y="1954">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="302" name="Gas vent" x="5640" y="1922">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="303" name="Gas vent" x="5656" y="1810">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="304" name="Gas vent" x="5496" y="1794">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="305" name="Gas vent" x="5544" y="1682">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="306" name="Gas vent" x="5816" y="1826">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="307" name="Gas vent" x="5896" y="1714">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="308" name="Gas vent" x="6008" y="1762">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="309" name="Gas vent" x="5736" y="1170">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="310" name="Gas vent" x="5784" y="1234">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="311" name="Gas vent" x="5928" y="1218">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="312" name="3D printers" x="7072" y="1559">
+   <properties>
+    <property name="description">Niko comments on the fact this is a big metal box with complicated machinery inside. The interaction is slightly delayed so you can do an extra action before the text appears.
+
+Niko can also walk behind the boxes.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="313" name="3D printer" x="7136" y="1547">
+   <properties>
+    <property name="description">Niko comments on the fact this is a big metal box with complicated machinery inside. The interaction is slightly delayed so you can do an extra action before the text appears.
+
+Niko can also walk behind the boxes.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="314" name="3D printer" x="7248" y="1547">
+   <properties>
+    <property name="description">Niko comments on the fact this is a big metal box with complicated machinery inside. The interaction is slightly delayed so you can do an extra action before the text appears.
+
+Niko can also walk behind the boxes.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="318" name="3D printers" x="6912" y="1243">
+   <properties>
+    <property name="description">Niko comments on the fact this is a big metal box with complicated machinery inside. The interaction is slightly delayed so you can do an extra action before the text appears.
+
+Niko can also walk behind the boxes.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="319" name="3D printer" x="7008" y="1243">
+   <properties>
+    <property name="description">Niko comments on the fact this is a big metal box with complicated machinery inside. The interaction is slightly delayed so you can do an extra action before the text appears.
+
+Niko can also walk behind the boxes.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="320" name="Unpowerable robots" x="6736" y="1254">
+   <properties>
+    <property name="description" value="Niko comments on the fact there's is a bunch of robots the generator couldn't power."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="321" name="Unpowerable robots" x="7224" y="1254">
+   <properties>
+    <property name="description" value="Niko comments on the fact there's is a bunch of robots the generator couldn't power."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="322" name="Rusty robots" x="6960" y="1255">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a rusty robot. It cannot be reactivated."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="323" name="Rusty robots" x="7064" y="1255">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a rusty robot. It cannot be reactivated."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="324" name="Rusty robot" x="7144" y="1255">
+   <properties>
+    <property name="description" value="Niko comments on the fact this is a rusty robot. It cannot be reactivated."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="325" name="Cleaning solvent recipe page 2" x="7032" y="1280">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on this likely being a page ripped from a book.
+
+''2) Without breaking the
+''seal, inject the liquid
+''phosphor into the
+''container.
+
+''3) Shake vigorously to
+''initiate the reaction.
+
+''4) Use as soon as
+''possible.
+
+''Note: If elements begin
+''to separate, further
+''shaking is required.
+
+''Also note: Hand
+''protection is critical
+''after this step.
+
+''The resulting acid is
+''moderately stronger
+''than common household
+''cleaners.
+
+Niko comments on the fact they don't understnad half of the words and express relief because you're here.&lt;/poem&gt;</property>
+    <property name="page" value="Bottle of acid"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="326" name="Gas vent" x="1288" y="1970">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="327" name="Gas vent" x="1288" y="1858">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="328" name="Gas vent" x="1416" y="1954">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="329" name="Gas vent" x="1432" y="1906">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="330" name="Gas vent" x="1464" y="1810">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="331" name="Gas vent" x="1320" y="1714">
+   <properties>
+    <property name="description">Niko comments on the fact this is a gas vent. If the empty bottle or bottle of pond water is used Niko states they can't reach the top of the vent.
+
+The interaction is slightly delayed so you can do an extra action before the text appears.
+
+</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="334" name="Computer terminals" x="344" y="2688">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are broken computer terminals. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="335" name="Computer terminals" x="552" y="2688">
+   <properties>
+    <property name="description" value="The [[Entity]] comments on the fact those are broken computer terminals. After [[Prophetbot]] makes [[Niko]] familiar with the [[Player]], Niko comments instead."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="343" name="Ladder" x="2472" y="1785">
+   <properties>
+    <property name="description" value="The camera pans up and down, then Niko admits to be scared of ladders. This event can be triggered by walking into it."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="345" name="&quot;Evacuation and the Author's books&quot;" x="2472" y="2048">
+   <properties>
+    <property name="description">&lt;poem&gt;''Looks like we're
+''supposed to pack stuff
+''for the evacuation
+''starting today...
+
+''I wish these books
+''weren't so heavy...it's
+''gonna be a pain to
+''carry them onto the
+''ship.
+
+''But they're by the
+''Author! I can't just
+''throw them away!&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="346" name="Capsule dormitory wall" x="2632" y="1776">
+   <properties>
+    <property name="description" value="The camera pans up and down if you interact with the wall, revealing the full height."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="347" name="Capsule dormitory wall" x="3360" y="143">
+   <properties>
+    <property name="description" value="The camera pans up and down if you interact with the wall, revealing the full height."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="348" name="Inaccessible ladder sides camera pan" x="2408" y="1952">
+   <properties>
+    <property name="description" value="2 wall triggers Out of Bounds that make Niko move right or left and then face up before triggering the wall camera pan."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="354" name="Robot voice" x="3368" y="2036">
+   <properties>
+    <property name="description">A picture of a robot. Makes Niko talk about never seeing a robot outside cartoons before entering the world. 
+
+You can ask Niko to do a robot voice and they will say that they eat batteries because they are a robot using the robotic text sound. This makes the robot on the wall turn around and correct Niko about robots not having mouths or digestive systems. Niko doesn't like you making them look silly.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="355" name="Capsule dormitory wall" x="3912" y="143">
+   <properties>
+    <property name="description" value="The camera pans up and down if you interact with the wall, revealing the full height."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="356" name="Ladder" x="3752" y="153">
+   <properties>
+    <property name="description" value="The camera pans up and down, then Niko admits to be scared of ladders. This event can be triggered by walking into it."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="357" name="Shrimp jar" x="3752" y="404">
+   <properties>
+    <property name="description" value="Niko comments on tiny shrimp swimming in this jar."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="358" name="Inaccessible segment of the wall" x="3704" y="384">
+   <properties>
+    <property name="description" value="A wall trigger, same as the others in the room, but Out of Bounds and inaccessible."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="360" name="Capsule dormitory wall" x="4600" y="1775">
+   <properties>
+    <property name="description" value="The camera pans up and down if you interact with the wall, revealing the full height."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="361" name="Ladder" x="4440" y="1785">
+   <properties>
+    <property name="description" value="The camera pans up and down, then Niko admits to be scared of ladders. This event can be triggered by walking into it."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="362" name="&quot;Squares break ships&quot;" x="4440" y="2048">
+   <properties>
+    <property name="description">&lt;poem&gt;''Apparently, phase 1 of
+''the evacuation ended
+''prematurely.
+
+''The big ships started
+''malfunctioning only
+''after a few round
+''trips.
+
+''They said it was due
+''to... something with
+''squares?
+
+''I'm not sure what they
+''mean by that.
+
+''Bummer, looks like they
+''won't be able to
+''transport most of
+''these surplus bots to
+''the city at this rate.
+
+''And we worked so hard
+''on those!
+
+''But I suppose the
+''rowbots are busy
+''enough with
+''transporting people as
+''is.
+
+''I think it's going to be
+''our turn soon...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="363" name="&quot;Tamed robots evacuation&quot;" x="4520" y="2032">
+   <properties>
+    <property name="description">&lt;poem&gt;''Looks like they're
+''evacuating the few
+''tamed robots we have
+''here.
+
+''Makes sense... no point
+''in keeping them in the
+''Barrens if all the
+''people are already gone.
+
+''I wonder if the
+''engineer is going too...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="364" name="Blue Guardian's power cell" x="4728" y="2029">
+   <properties>
+    <property name="description">Niko comments on the fact they don't know what this machine does and that it makes their hair stand up a little.
+
+Niko is able to understand that this is the power cell of the &quot;Guardian of Residential Area&quot; after inspecting the similar power cell at the [[Silver]]'s cabin while she's home.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="365" name="Dim shrimp jar" x="4760" y="2036">
+   <properties>
+    <property name="description" value="Niko comments on lots of tiny shrimp swimming in this jar and that it looks a little dim."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="366" name="Capsule dormitory wall" x="2760" y="143">
+   <properties>
+    <property name="description" value="The camera pans up and down if you interact with the wall, revealing the full height."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="367" name="Ladder" x="2600" y="153">
+   <properties>
+    <property name="description" value="The camera pans up and down, then Niko admits to be scared of ladders. This event can be triggered by walking into it."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="368" name="Robot beyond repair" x="2600" y="395">
+   <properties>
+    <property name="description" value="Niko comments on the fact this a robot beyond repair."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="369" name="Mechanical drawing" x="2920" y="404">
+   <properties>
+    <property name="description" value="Niko comments on this being some sort of mechanical drawing."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="370" name="&quot;No sun and no job&quot;" x="2856" y="384">
+   <properties>
+    <property name="description">&lt;poem&gt;''Evacuation? At such
+''short notice?
+
+''I can't believe this...
+
+''First the sun dies, now
+''I'm out of a job...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="371" name="Surely computer terminals" x="3800" y="1904">
+   <properties>
+    <property name="description" value="Niko more confidently assumes that these are computers."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="372" name="Surely computer terminals" x="4008" y="1904">
+   <properties>
+    <property name="description" value="Niko more confidently assumes that these are computers."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="374" name="&quot;Servers are failing&quot;" x="3800" y="1968">
+   <properties>
+    <property name="description">&lt;poem&gt;Niko comments on the fact some ink on this page is faded.
+
+''-likely due some sort
+''of electrical or
+''magnetic interference.
+
+''I'm afraid this
+''operation can no longer
+''be sustained, if the
+''servers continue to
+''fail so much that
+''maintenance cannot keep
+''up the pace.
+
+''Fortunately, it does
+''not seem to be
+''happening to the
+''robots.
+
+''At least, not at a
+''significant rate.
+
+''Time will tell.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="394" name="Infirmary sign" x="3160" y="994">
+   <properties>
+    <property name="description" value="Says &quot;INFIRMARY&quot;."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="395" name="Infirmary sign" x="3416" y="994">
+   <properties>
+    <property name="description" value="Says &quot;INFIRMARY&quot;."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="405" name="Prophetbot's power cell" x="8824" y="2301">
+   <properties>
+    <property name="description">Niko comments on the fact they don't know what this machine does and that it makes their hair stand up a little.
+
+Niko is able to understand that this is the power cell of the &quot;Prophetbot&quot; after inspecting the similar power cell at the [[Silver]]'s cabin while she's home.
+
+One of the Prototype's aliases is Prophetbot 0 because he's the predecessor of the Prophetbot found at the Outpost.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="406" name="Computers" x="8720" y="2240">
+   <properties>
+    <property name="description" value="Niko comments on the fact these are computers."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="408" name="Computers" x="8768" y="2320">
+   <properties>
+    <property name="description" value="Niko comments on the fact these are computers."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="409" name="Shrimp jar" x="8856" y="2308">
+   <properties>
+    <property name="description" value="Niko comments on a lot of small, glowing shrimp swimming in the jar."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="413" name="&quot;Residential tracking machine symbols&quot;" x="9304" y="2128">
+   <properties>
+    <property name="description">&lt;poem&gt;''RESIDENTIAL TRACKING
+''MACHINE
+
+''For reference, an
+''explanation of the
+''symbols:
+
+''Cross: Medical Units are
+''assigned to this
+''building.
+
+''Robot: A robot is
+''assigned to this
+''building.
+
+''Electricity: A power cell
+''is assigned to this
+''building.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="417" name="Squares appear" x="8520" y="2312">
+   <properties>
+    <property name="description" value="This tile later turns into squares to which Niko says they shouldn't get too close."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="418" name="Inaccessible squares appear" x="8504" y="2344">
+   <properties>
+    <property name="description">This tile later turns into squares to which Niko says they shouldn't get too close.
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="items" visible="0">
+  <object id="181" name="screwdriver" x="7510" y="3191">
+   <properties>
+    <property name="description">A small blue glimmer shines on a shelf. It is a screwdriver that can be combined with the [[camera]] to get the [[lens]] out of it.
+
+If Silver is home, she says she has many screwdrivers so Niko can take one if they want.</property>
+    <property name="page" value="Screwdriver"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="182" name="broken battery" x="2360" y="3936">
+   <properties>
+    <property name="description" value="A locked box with a small flickering sun symbol on its side. Contains a broken solar battery. Can be opened using the [[crowbar]]."/>
+    <property name="page" value="Broken battery"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="183" name="metal rod" x="516" y="2737">
+   <properties>
+    <property name="description" value="A metal rod is found here. It can be used on the active press machine in the Outpost factory to make the [[crowbar]]."/>
+    <property name="page" value="Metal rod"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="184" name="sponge" x="7128" y="1282">
+   <properties>
+    <property name="description" value="A cleaning sponge is found here. It can be combined with the [[bottle of acid]] to make the [[wet sponge]] if you have the [[rubber gloves]]."/>
+    <property name="page" value="Sponge"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="185" name="filled syringe" x="872" y="1809">
+   <properties>
+    <property name="description">A pond with a bubble and full of rare organic form of blue phosphor. The thick liquid inside can be used to make the cleaning solution recipe described on the pages inside the [[Old factory]]. You can fill the [[empty syringe]] with pond water to make the filled syringe which can be combined with the [[bottle of smoke]] to make the [[bottle of acid]].
+
+If bottle of smoke is used on it Niko empties it. If the empty bottle is used on it Niko tells a story.</property>
+    <property name="page" value="Viscous syringe"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="186" name="rubber gloves" x="7016" y="1588">
+   <properties>
+    <property name="description" value="A pair of rubber gloves is found here. They are required to combine the [[sponge]] with the [[bottle of acid]] and use the resulting [[wet sponge]] to clean the [[Rowbot]]. "/>
+    <property name="page" value="Rubber gloves"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="187" name="crowbar" x="4072" y="4194">
+   <properties>
+    <property name="description">A big press machine active even without the generator. It constantly rectracts and extends the press as if trying to crush something and produces banging noises heard throughout the entire building.
+
+Can be used to turn the [[metal rod]] into a [[crowbar]] which can be used to open the box inside the Outpost and to unblock the second floor passage of the Old factory.</property>
+    <property name="page" value="Crowbar"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="188" name="camera" x="8136" y="3364">
+   <properties>
+    <property name="description">A broken camera is found here. It can be combined with the [[screwdriver]] to get the [[lens]].
+
+Silver speculates that it might be a robot part, but she doesn't know for sure.</property>
+    <property name="page" value="Camera"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="189" name="empty syringe" x="3176" y="420">
+   <properties>
+    <property name="description" value="A first aid kit containing broken and rusted medical tools. Niko will take a plastic [[empty syringe]] from it and the box will disappear. The syringe can be filled with blue phosphor liquid of the [[shrimp swamp]] bubble pond to get the [[filled syringe]]."/>
+    <property name="page" value="Empty syringe"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="190" name="bottle of smoke" x="984" y="1362">
+   <properties>
+    <property name="description" value="A small acidic gas vent Niko can reach. The [[empty bottle]] or the bottle of pond water can be filled with the gas here to make the [[bottle of smoke]] for the cleaning solution recipe described on the pages inside the [[Old factory]]."/>
+    <property name="page" value="Bottle of smoke"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="270" name="Shelves" x="7496" y="3166">
+   <properties>
+    <property name="description" value="Niko comments on the shelf having weird tools and pieces of metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="272" name="Shelf" x="7296" y="3166">
+   <properties>
+    <property name="description" value="Niko comments on the shelf having weird tools and pieces of metal."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="419" name="memory disk (backup)" x="9448" y="2096">
+   <properties>
+    <property name="description">The Prophetbot 0 backup system terminal can write the Prototype's backup to the disk after the tracking puzzle is solved.
+
+It's also positioned to block the emergency exit. It's weighed down so it can't be moved by anyone but Silver.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="connections" visible="0">
+  <object id="12" name="entrance terminal room door" x="1234.67" y="4332">
+   <polygon points="-2.66667,-28 -802.667,-12 -2.66667,-28"/>
+  </object>
+  <object id="13" name="Outpost door" x="2490.67" y="4748">
+   <polygon points="-2.66667,-12 -2.66667,-636 -2.66667,-12"/>
+  </object>
+  <object id="14" name="Backroom door" x="2490.67" y="4044">
+   <polygon points="-2.66667,-12 -2.66667,-636 -2.66667,-12"/>
+  </object>
+  <object id="15" name="factory interior door" x="2738.67" y="4844">
+   <polygon points="349.333,52 1085.33,-252 349.333,52"/>
+  </object>
+  <object id="17" name="Bed room door" x="1218.67" y="2732">
+   <polygon points="-2.66667,-28 -786.667,-12 -2.66667,-28"/>
+  </object>
+  <object id="19" name="Rowbot" x="1365.98" y="2994.33">
+   <properties>
+    <property name="description">Rowbot #310, unpowered, rusty and circuits fried. Needs to be powered by the [[Outpost]] generator, cleand with the [[wet sponge]] and reminded where the [[Glen]] is with the [[amber]] to be able to transport Niko there. Until Niko uses the bed they're too sleepy to proceed.
+
+When the Rowbot is unpowered you get an opportunity to prank Niko by saying you're not here.
+
+On the Solstice route the Rowbot gets covered in squares and asks Niko to not approach it. If it's unpowered Niko comments on the squares.</property>
+    <property name="page" value="Rowbot"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="dock transition" x="1440" y="2064">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -176,0 -176,-16 0,-16 0,0 -176,0 0,0"/>
+  </object>
+  <object id="21" name="dock transition" x="1352" y="2064">
+   <properties>
+    <property name="description" value="Tiles (62, 77), (72, 77) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Docks map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="shrimp swamp transition" x="1440" y="2432">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -176,0 -176,-16 0,-16 0,0 -176,0 0,0"/>
+  </object>
+  <object id="23" name="shrimp swamp transition" x="1352" y="2416">
+   <properties>
+    <property name="description" value="Tiles (25, 11), (35, 11) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Swamp map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="dormitories transition" x="2000" y="1088">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,-80 16,-80 16,128 0,128 0,-80 16,-80 0,-80"/>
+  </object>
+  <object id="25" name="dormitories transition" x="2016" y="1112">
+   <properties>
+    <property name="description" value="Tiles (108, 12), (108, 24) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Dormitories map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="26" name="shrimp swamp transition" x="2416" y="1088">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,-80 16,-80 16,128 0,128 0,-80 16,-80 0,-80"/>
+  </object>
+  <object id="27" name="shrimp swamp transition" x="2416" y="1112">
+   <properties>
+    <property name="description" value="Tiles (11, 28), (11, 40) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Swamp map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="old factory transition" x="4768" y="1264">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,-256 16,-256 16,112 0,112 0,-256"/>
+  </object>
+  <object id="31" name="old factory transition" x="4784" y="1192">
+   <properties>
+    <property name="description" value="Tiles (158, 28), (158, 50) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Old factory map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="dormitories transition" x="5168" y="1360">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,-352 0,16 -16,16 -16,-352 0,-352"/>
+  </object>
+  <object id="33" name="dormitories transition" x="5152" y="1192">
+   <properties>
+    <property name="description" value="Tiles (11, 42), (11, 64) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Dormitories map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="cliffs transition" x="5600" y="2352">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 224,0 224,-16 0,-16 0,0"/>
+  </object>
+  <object id="37" name="cliffs transition" x="5712" y="2352">
+   <properties>
+    <property name="description" value="Tiles (39, 125), (52, 125) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Cliffs map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="old factory transition" x="5600" y="3552">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 224,0 224,-16 0,-16 0,0"/>
+  </object>
+  <object id="39" name="old factory transition" x="5712" y="3536">
+   <properties>
+    <property name="description" value="Tiles (42, 14), (55, 14) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Old factory map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="outpost transition" x="5104" y="4736">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,288 0,288 0,0"/>
+  </object>
+  <object id="41" name="outpost transition" x="5104" y="4880">
+   <properties>
+    <property name="description" value="Tiles (11, 89), (11, 106) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Outpost map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="cliffs transition" x="3296" y="4736">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,288 0,288 0,0"/>
+  </object>
+  <object id="43" name="cliffs transition" x="3312" y="4880">
+   <properties>
+    <property name="description" value="Tiles (78, 23), (78, 40) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Cliffs map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="44" name="entrance transition" x="2224" y="4912">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,32 16,32 16,-320 0,-320 0,32"/>
+  </object>
+  <object id="45" name="entrance transition" x="2224" y="4768">
+   <properties>
+    <property name="description" value="Tiles (11, 14), (11, 35) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Start point/Entrance map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" name="outpost transition" x="1792" y="4928">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,32 16,32 16,-320 0,-320 0,32"/>
+  </object>
+  <object id="47" name="outpost transition" x="1808" y="4784">
+   <properties>
+    <property name="description" value="Tiles (58, 67), (58, 88) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Outpost map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="48" name="entrance transition" x="1376" y="3360">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -336,0 -336,-16 0,-16 0,0"/>
+  </object>
+  <object id="49" name="entrance transition" x="1208" y="3360">
+   <properties>
+    <property name="description" value="Tiles (11, 69), (31, 69) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Start point/Entrance map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="50" name="docks transition" x="1376" y="3728">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -336,0 -336,-16 0,-16 0,0"/>
+  </object>
+  <object id="51" name="docks transition" x="1208" y="3712">
+   <properties>
+    <property name="description" value="Tiles (11, 11), (31, 11) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Docks map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" name="factory upstairs door" x="3824" y="4496">
+   <polygon points="16,0 16,-208 16,0"/>
+  </object>
+  <object id="56" name="lookout point transition" x="6352" y="3840">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,128 -16,128 -16,0 0,0"/>
+  </object>
+  <object id="57" name="lookout point transition" x="6352" y="3904">
+   <properties>
+    <property name="description" value="Tiles (88, 33), (88, 40) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Lookout point map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="cliffs transition" x="6736" y="3840">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,128 -16,128 -16,0 0,0"/>
+  </object>
+  <object id="59" name="cliffs transition" x="6720" y="3904">
+   <properties>
+    <property name="description" value="Tiles (11, 24), (11, 31) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Cliffs map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="60" name="mineshaft entrance transition" x="7488" y="3856">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,112 -16,112 -16,0 0,0"/>
+  </object>
+  <object id="61" name="mineshaft entrance transition" x="7488" y="3912">
+   <properties>
+    <property name="description" value="Tiles (58, 25), (58, 31) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Mineshaft entrance map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="62" name="lookout point transition" x="7920" y="3856">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,112 -16,112 -16,0 0,0"/>
+  </object>
+  <object id="63" name="lookout point transition" x="7904" y="3912">
+   <properties>
+    <property name="description" value="Tiles (11, 13), (11, 19) and every tile in-between trigger fade-to-black &quot;outdoors transition&quot; to the Lookout point map."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="64" name="Silver's cabin door" x="7412" y="3716">
+   <polygon points="-4,60 -4,-420 -4,60"/>
+  </object>
+  <object id="65" name="mineshaft door" x="8160" y="3872">
+   <polygon points="0,0 0,-304 0,0"/>
+  </object>
+  <object id="66" name="Factory interior2 door" x="5840" y="1680">
+   <polygon points="0,0 1072,-16 0,0"/>
+  </object>
+  <object id="67" name="upstairs door" x="6928" y="1568">
+   <polygon points="0,0 0,-208 0,0"/>
+  </object>
+  <object id="68" name="119 - cell door" x="4240" y="1312">
+   <polygon points="0,0 352,752 0,0"/>
+  </object>
+  <object id="69" name="server room door" x="3888" y="1936">
+   <polygon points="0,0 0,-672 0,0"/>
+  </object>
+  <object id="71" name="113 - ocean door" x="3904" y="432">
+   <polygon points="0,0 0,608 0,0"/>
+  </object>
+  <object id="72" name="118 - robot voice door" x="3216" y="2064">
+   <polygon points="0,0 352,-800 0,0"/>
+  </object>
+  <object id="73" name="112 - infirmary door" x="3328" y="432">
+   <polygon points="0,0 -32,608 0,0"/>
+  </object>
+  <object id="74" name="110 - mechanical drawing door" x="2768" y="432">
+   <polygon points="0,0 16,608 0,0"/>
+  </object>
+  <object id="75" name="117 - mom door" x="3056" y="1312">
+   <polygon points="0,0 -416,752 0,0"/>
+  </object>
+  <object id="76" name="backroom door" x="9344" y="2256">
+   <polygon points="0,0 -496,16 0,0"/>
+  </object>
+  <object id="77" name="backhall door" x="9440" y="2128">
+   <polygon points="0,0 -1360,-336 0,0"/>
+  </object>
+  <object id="78" name="extra hallway/server room transition" x="8912" y="3424">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,-16 0,-16 0,0"/>
+  </object>
+  <object id="79" name="extra hallway/server room transition" x="8920" y="3408">
+   <properties>
+    <property name="description" value="This tile triggers fade-to-black &quot;outdoors transition&quot; to the extra hallway/server room map. It switches destinations after the [[Entity]] asks Niko to turn back."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="82" name="server room transition" x="9744" y="2928">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="84" name="mineshaft transition" x="8160" y="2336">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="85" name="mineshaft transition" x="8168" y="2320">
+   <properties>
+    <property name="description">This tile triggers fade-to-black &quot;outdoors transition&quot; to the mineshaft map. 
+
+If the Silver is following you she blocks it before you can use it.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="86" x="8912" y="3408">
+   <polygon points="0,0 -848,-480 0,0"/>
+  </object>
+  <object id="87" x="9744" y="2912">
+   <polygon points="0,0 -1568,-576 0,0"/>
+  </object>
+  <object id="88" x="8176" y="2336">
+   <polygon points="0,0 736,1072 0,0"/>
+  </object>
+  <object id="89" name="Entity distabilizes" x="8656" y="1712">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="90" name="transition to the &quot;collapse&quot; map" x="8656" y="1216">
+   <polygon points="0,0 0,480 0,0"/>
+  </object>
+  <object id="91" name="transition to &quot;protowalk&quot;" x="8656" y="1200">
+   <polygon points="0,0 320,-480 0,0"/>
+  </object>
+  <object id="92" name="No more Prototype" x="9056" y="720">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="93" name="back to collapse" x="9216" y="1200">
+   <polygon points="0,0 -144,-480 0,0"/>
+  </object>
+  <object id="94" name="Niko talk" x="9376" y="1216">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="95" name="Niko talk" x="9600" y="1216">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="96" name="POSTGAME mines exit transition" x="9808" y="1216">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="97" name="Inaccessible Niko talk" x="9728" y="1072">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="99" name="POSTGAME mines exit transition" x="9856" y="720">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="100" name="Inaccessible Niko talk" x="9696" y="720">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="101" name="Inaccessible Niko talk" x="9536" y="720">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 0,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="430" name="Inaccessible Solstice Glen transition" x="9864" y="704">
+   <properties>
+    <property name="description">Niko faces the player to say &quot;That robot told me to try and remember, so I will. Sleepy time.&quot;. 
+
+Niko's sprite changes to unique set of sprites with eyes closed while in the blue minecart. No cutscene happens and Niko appears in the Glen mines as normal. Except still in the blue minecart and with closed eyes.
+
+Can actually be accessed using glitches.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="434" name=" Solstice Glen transition" x="9816" y="1200">
+   <properties>
+    <property name="description">Niko turns to fce the player and starts worrying about the chance of them not being able to fix the world and return home. They don't know what to do.
+
+Niko sits down in the minecart and closes their eyes. The camera zooms out until Niko is just a glowing dot on a purple line.
+
+Screen fades to black to the end of the tracks in the Glen.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="435" name="Inaccessible door to the backroom" x="8096" y="1296">
+   <point/>
+  </object>
+  <object id="436" name="Inaccessible door to the backroom" x="8096" y="800">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="ftpoints" visible="0">
+  <object id="194" name="Swamp/shrimp swamp" x="1208" y="1720">
+   <properties>
+    <property name="description">Shrimp swamp in the 2016 Remake, Swamp in the World Machine Edition.
+
+Gas mask is reqiured to unlock this fast travel point.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="197" name="Lookout point" x="7400" y="3784">
+   <point/>
+  </object>
+  <object id="192" name="Outpost" x="2488" y="4744">
+   <properties>
+    <property name="description" value="Not unlocked until after the [[Prophetbot]] encounter."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="193" name="Old factory" x="5832" y="1688">
+   <properties>
+    <property name="description" value="Gas mask is reqiured to unlock this fast travel point."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="191" name="Entrance" x="1240" y="4328">
+   <point/>
+  </object>
+  <object id="195" name="Dormitories" x="3480" y="1304">
+   <point/>
+  </object>
+  <object id="199" name="Docks" x="1224" y="2728">
+   <point/>
+  </object>
+  <object id="196" name="Cliffs" x="5688" y="4744">
+   <point/>
+  </object>
+  <object id="200" name="Mineshaft entrance (WME only)" x="8136" y="3896">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="beds" visible="0">
+  <object id="201" name="bed" x="280" y="2726">
+   <properties>
+    <property name="description">Allows Niko to rest and dream. Meeting the [[Prophetbot]] is required to use this bed. Using this bed is required to leave the Barrens.
+
+After the first time sleeping in this bed Niko will have a dream about the wheat field surrounding their home village. Niko will be excited to tell you more about their home and will ask you about yours.
+
+On the Solstice route, Niko doesn't see dreams and can use beds more than once although it's no longer required for anything.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="warnings" visible="0">
+  <object id="83" name="Solstice will kill Rowbot" x="9752" y="2912">
+   <properties>
+    <property name="description">This tile triggers fade-to-black &quot;outdoors transition&quot; to the server room map.
+
+After this point there is no way to terminate the Solstice route. After Silver moves into the server room squares spawn on top of the [[Rowbot]] making the normal route impossible to complete.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="333" name="Niko stops being sleepy" x="270" y="2726">
+   <properties>
+    <property name="description">Niko can't use the bed more than once on the normal route, meaning if you're going for the &quot;Oneshot&quot; [[achievement]] you wont have more opportunities to quit the game in the Barrens.
+
+On the Solstice route you can use beds multiple times but you can't earn the achievement.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

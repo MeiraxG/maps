@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="107" height="59" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="65">
+ <properties>
+  <property name="include" value="Map:Common Data"/>
+ </properties>
+ <imagelayer id="3" name="Starting house map" locked="1">
+  <image source="../../../../../Desktop/Starting house map.png" width="3424" height="1888"/>
+ </imagelayer>
+ <objectgroup id="6" name="plot">
+  <properties>
+   <property name="description" value="The game starts with a cat looking child waking up in some place they don't know and asking if anyone is here. Your goal is to guide them and ensure their safety."/>
+   <property name="page" value="Niko"/>
+  </properties>
+  <object id="22" name="Niko" x="896" y="480">
+   <properties>
+    <property name="description" value="The game starts with a cat looking child waking up in some place they don't know and asking if anyone is here. Your goal is to guide them and ensure their safety."/>
+    <property name="page" value="Niko"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="Helloooo?" x="1040" y="848">
+   <properties>
+    <property name="description" value="Right after entering the living room Niko will try to find if anyone is here and there will be no response again."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="Music slows down and gets louder" x="1520" y="912">
+   <properties>
+    <property name="description" value="In the basement stairs room for a dramatic effect the music slows down by 20% and its volume increases by 10%."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="25" name="Music speeds up" x="2096" y="1392">
+   <properties>
+    <property name="description" value="In the basement the music speeds up by 40%."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="Camera panning" x="2368" y="1408">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 0,-32 32,-32 32,0 0,0 0,-32"/>
+  </object>
+  <object id="60" name="Camera panning" x="2384" y="1376">
+   <properties>
+    <property name="description" value="For a dramatic effect, Niko stops and the camera pans towards the lightbulb on the ground."/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="puzzles">
+  <object id="15" name="Computer" x="975.818" y="497.273">
+   <properties>
+    <property name="description" value="A PC asking for a password which is 4 nonrepeating random digits (or a word in [[New Game Plus]]). Unlocking the PC makes it send system messages about the &quot;mission&quot;, [[Niko]] and the one shot you got (NG+ proves it wrong and confuses it). The doors will open after that."/>
+    <property name="page" value="Entity"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" name="Window" x="1136" y="435.5">
+   <properties>
+    <property name="description" value="The window letting in the light needed to see the digits on the [[TV remote]]. The digits positions are random. The random aspect is removed and the text changes if the colorblind mode is on in the [[settings]]."/>
+    <property name="page" value="Starting house#Bedroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" name="Southern bedroom door" x="1040" y="720">
+   <properties>
+    <property name="description" value="The door locked until you unlock the computer."/>
+    <property name="page" value="Starting house#Bedroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="18" name="Western bedroom door" x="784" y="592">
+   <properties>
+    <property name="description" value="The door locked until you unlock the computer. This roadblock was added in [[World Machine Edition]] and backported to the Remake in 2022 to help new players with the remote puzzle."/>
+    <property name="page" value="Starting house#Bedroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="Fireplace" x="1295.88" y="835.75">
+   <properties>
+    <property name="description" value="A fireplace with wood that can be set on fire using the [[torch]]. Lit fireplace reveals the [[basement key]] wedged into a crack in the floor. "/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="Eastern living room door" x="1488" y="912">
+   <properties>
+    <property name="description" value="The door that can be unlocked using the [[basement key]]."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Western living room door" x="880" y="831.875">
+   <properties>
+    <property name="description" value="If the [[lightbulb]] is used on it the lightbulb shaped hole emits a flash of light and then Niko gets teleported to [[Barrens]]. Key presses are needed to advance the cutscene."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="signs">
+  <object id="10" name="Bookshelf" x="1056.18" y="455.636">
+   <properties>
+    <property name="description" value="'' '''Before obtaining the [[lightbulb]]:&lt;br&gt;''' [Dusty books.]&lt;br&gt;[It's too dark to read in here.]''&lt;br&gt;'' '''After obtaining the lightbulb:'''&lt;br&gt;shows an open book with pages blank except for &quot;Ad infinitum&quot; written on the page on the right."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="Tub" x="577.273" y="575.636">
+   <properties>
+    <property name="description" value="''[The tub won't run.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="Reflection in the mirror" x="656.375" y="489.875">
+   <properties>
+    <property name="description" value="''[A pair of &lt;span style=&quot;color:yellow;&quot;&gt;luminous, yellow eyes&lt;/span&gt; stares back at Niko.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="Toilet" x="592.364" y="489.636">
+   <properties>
+    <property name="description" value="''[There's no water in the toilet.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="Sink" x="1216" y="1095.73">
+   <properties>
+    <property name="description" value="''[The sink won't turn on.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="12" name="Table" x="1343.88" y="1143.63">
+   <properties>
+    <property name="description" value="''[Just a table.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" name="Chair" x="1297.75" y="1153.63">
+   <properties>
+    <property name="description" value="''[Just a chair.]''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="14" name="Chair" x="1389.75" y="1153.75">
+   <properties>
+    <property name="description" value="''[Just a chair.]''"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="items">
+  <object id="6" name="lightbulb" x="2801.27" y="1391.45">
+   <properties>
+    <property name="description" value="A mysterious giant lightbulb that will later be revealed to be crucial to the plot and the gameplay. Will light up and teleport Niko into a different room which completely replaces the dark basement from now on. Lightbulb is isplayed on [[Niko]]'s sprites after being picked up. The music also stops. The item can be used on the western living room door to leave the house."/>
+    <property name="page" value="Lightbulb"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="basement key" x="1233" y="902.313">
+   <properties>
+    <property name="description" value="After the fireplace is lit, a small blue glimmer appears. It is the key that can unlock the eastern door."/>
+    <property name="page" value="Basement key"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="3" name="torch" x="1135.88" y="805.25">
+   <properties>
+    <property name="description" value="The broken TV gives off sparks that can be used to light the [[wet branch]] on fire, making it into a [[torch]]."/>
+    <property name="page" value="Torch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" name="dry branch" x="718.818" y="518.023">
+   <properties>
+    <property name="description" value="A withered potted plant sits here. [[Niko]] can take its [[branch]] which can be combined with the [[bottle of alcohol]] to create the [[empty bottle]] and the [[wet branch]]."/>
+    <property name="page" value="Dry branch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="bottle of alcohol" x="1379.09" y="1009.82">
+   <properties>
+    <property name="description" value="A lone bottle of alcohol is found inside the refrigerator. It can be combined with the [[dry branch]] to create the [[empty bottle]] and the [[wet branch]]."/>
+    <property name="page" value="Bottle of alcohol"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="1" name="television remote" x="1168.09" y="576">
+   <properties>
+    <property name="description" value="A TV remote is found here on non-[[New Game Plus]] playthroughs. It has the digits of the PC password written on its buttons but it's too dark to see them so [[Niko]] will have to make use of the light coming from the window."/>
+    <property name="page" value="Television remote"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="achievements">
+  <object id="64" name="Return (WME)" x="944" y="560">
+   <properties>
+    <property name="description" value="In the World Machine Edition, you get the Return achievement after Niko walks out of the bed in [[New Game Plus]]."/>
+    <property name="page" value="Return"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="annotations">
+  <object id="61" name="After sun" x="2096" y="1328">
+   <properties>
+    <property name="color" type="color" value="#ff5500ff"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 -64,64 0,0 -64,64"/>
+  </object>
+  <object id="62" name="After sun" x="2768" y="1392">
+   <properties>
+    <property name="color" type="color" value="#ff5500ff"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 0,-64 0,0 0,-64"/>
+  </object>
+ </objectgroup>
+</map>

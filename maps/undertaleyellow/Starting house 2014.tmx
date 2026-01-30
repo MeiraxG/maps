@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="107" height="59" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="33">
+ <properties>
+  <property name="include" value="Map:Common Data"/>
+ </properties>
+ <imagelayer id="2" name="Starting house 2014 map" locked="1">
+  <image source="images/Starting house 2014.png" width="3424" height="1888"/>
+ </imagelayer>
+ <objectgroup id="8" name="plot">
+  <object id="25" name="Music speeds up again" x="2224" y="1392">
+   <properties>
+    <property name="description" value="In the basement the music speeds up by another 10%."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="Music speeds up" x="1648" y="912">
+   <properties>
+    <property name="description" value="In the basement stairs room the music speeds up by 10% for a dramatic effect."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="Helloooo?" x="1040" y="848">
+   <properties>
+    <property name="description" value="3 seconds after entering the living room Niko will try to find if anyone is here and there will be no response again."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="Deja vu" x="880" y="528">
+   <properties>
+    <property name="description" value="An odd feeling of deja vu overwhelms [[Niko]] after leaving the bed if you have quit the game before solving the remote puzzle or if you've killed Niko before."/>
+    <property name="page" value="Endings"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Niko" x="832.125" y="465.375">
+   <properties>
+    <property name="description" value="The game starts with a cat looking child waking up in some place they don't know and asking if anyone is here. Your goal is to guide them and ensure their safety."/>
+    <property name="page" value="Niko"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="puzzles">
+  <object id="18" name="Western living room door" x="848" y="928">
+   <properties>
+    <property name="description">''A tall, rectangular panel of wood is set into the wall.
+It appears to be a door with no hinge and no handle.''
+''No amount of force can make it budge, either.''
+''A strange, somewhat circular symbol is carved into a central recess, roughly at eye level.''
+
+If the [[lightbulb]] is used on it the lightbulb shaped hole emits a flash of light and then Niko gets teleported to [[Barrens]] and their sprites change slightly. Key presses are needed to advance the cutscene.</property>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="Eastern living room door" x="1616" y="912">
+   <properties>
+    <property name="description" value="The door that can be unlocked using the [[basement key]]."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="15" name="Fireplace" x="1424" y="816">
+   <properties>
+    <property name="description" value="A fireplace with wood that can be set on fire. Inspecting it allows Niko to pick up a [[branch]] of the bathroom plant which can be used a part of the [[torch]] that can light the fireplace. Lit fireplace reveals the [[basement key]] wedged into a crack in the floor."/>
+    <property name="page" value="Starting house#Living Room"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="Southern bedroom door" x="1040" y="720">
+   <properties>
+    <property name="description" value="The door locked until you unlock the computer. After Niko picks up the [[lightbulb]] it becomes &quot;strangely locked&quot; again preventing [[Niko]] from going back into the bedroom."/>
+    <property name="page" value="Starting house#Bedroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" name="Window" x="1135.73" y="434.091">
+   <properties>
+    <property name="description" value="The window letting in the light needed to see the digits on the [[TV remote]]."/>
+    <property name="page" value="Starting house#Bedroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="14" name="Computer" x="951.125" y="499.818">
+   <properties>
+    <property name="description" value="A PC asking for a password which is 4 nonrepeating random digits, excluding 0. Unlocking the PC makes it send system messages about the goal, [[Niko]] and the permanent consequences of quitting the game. The southern door will open after that."/>
+    <property name="page" value="Entity"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="signs">
+  <object id="31" name="Inaccessible sink text you'd have to stay on top of the sink to read" x="1392" y="1168">
+   <properties>
+    <property name="description" value="''No water.''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="26" name="Bookshelf" x="1056" y="480">
+   <properties>
+    <property name="description" value="''&quot;ad infinitum&quot;''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="Tub" x="512" y="579.5">
+   <properties>
+    <property name="description" value="''The tub is completely empty.''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="27" name="Reflection in the mirror" x="591.833" y="492.667">
+   <properties>
+    <property name="description" value="''A pair of &lt;span style=&quot;color:yellow;&quot;&gt;luminous, yellow eyes&lt;/span&gt; stares back at Niko.''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" name="Toilet" x="527.75" y="499.5">
+   <properties>
+    <property name="description" value="''There's no water in the toilet.''"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="items">
+  <object id="12" name="lightbulb" x="2448.67" y="1389.67">
+   <properties>
+    <property name="description" value="A mysterious giant lightbulb that will later be revealed to be crucial to the plot and the gameplay. Will light up and be displayed on [[Niko]]'s sprites after being picked up. The music also stops. The item can be used on the western living room door to leave the house."/>
+    <property name="page" value="Lightbulb"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="basement key" x="1329.15" y="903.943">
+   <properties>
+    <property name="description" value="After the fireplace is lit, a small blue glimmer appears. It is the key that can unlock the eastern door."/>
+    <property name="page" value="Basement key"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="torch" x="1180.36" y="817.818">
+   <properties>
+    <property name="description" value="The broken TV gives off sparks that can be used to light the [[wet branch]] on fire, making it into a [[torch]]."/>
+    <property name="page" value="Torch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="dry branch" x="683.5" y="521.75">
+   <properties>
+    <property name="description" value="A withered potted plant sits here. After inspecting the fireplace, [[Niko]] can take its [[branch]] which can be combined with the [[bottle of alcohol]] to create the [[empty bottle]] and the [[wet branch]]."/>
+    <property name="page" value="Dry branch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="bottle of alcohol" x="1536" y="1024">
+   <properties>
+    <property name="description" value="A lone bottle of alcohol is found inside the refrigerator. It can be combined with the [[dry branch]] to create the [[empty bottle]] and the [[wet branch]]."/>
+    <property name="page" value="Bottle of alcohol"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" name="television remote" x="1072.84" y="579.909">
+   <properties>
+    <property name="description" value="A TV remote is found under the carpet here. It has the digits of the PC password written on its buttons but it's too dark to see them so [[Niko]] will have to make use of the light coming from the window."/>
+    <property name="page" value="Television remote"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="warnings">
+  <object id="16" name="Bad Ending" x="974.625" y="499">
+   <properties>
+    <property name="description">After you recieve the message about you &quot;having only one shot&quot;, you can kill [[Niko]] and get the &quot;bad ending&quot; by quitting the game not by using a few select beds or by pressing the f12 key. The &quot;bad ending&quot; cutscene happens in this very room.
+
+The current patch of the game allows replaying the game from the start after the &quot;bad ending&quot; where the v1.0 deleted itself and prevented you from replaying ever again by using the regsitry values and marking itself as malware.</property>
+    <property name="page" value="Endings"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

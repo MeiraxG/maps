@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="640" height="331" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="164">
+ <properties>
+  <property name="include" value="Map:Common Data"/>
+ </properties>
+ <imagelayer id="2" name="Barrens 2014 map" locked="1">
+  <image source="../../../../../Desktop/Barrens-2014-map.png" width="10240" height="5296"/>
+ </imagelayer>
+ <objectgroup id="7" name="plot">
+  <object id="61" name="Confusion" x="248" y="4360">
+   <properties>
+    <property name="description" value="Niko is confused by appearing here after a flash of light at the [[starting house]]."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="62" name="Spire sighted" x="1288" y="4344">
+   <properties>
+    <property name="description">After exiting the &quot;train&quot; for the first time, a cutscene shows Niko looking east at a very tall structure on the horizon and puts them here.  
+
+After this, the [[fast travel]] tutorial [[note]] is also unlocked.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="65" name="Prophetbot encounter" x="2568" y="4656">
+   <properties>
+    <property name="description" value="Every tile with x=28 make [[Prophetbot]] notice Niko. The camera will pan if the Prophetbot is off-screen then Prophetbot will say &quot;Ah!&quot; and move right and then up until Niko is 1 tile away. Then the proper encounter starts."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" name="Prophetbot encounter" x="2456" y="4848">
+   <properties>
+    <property name="description" value="The (21, 23) tile and every tile below make [[Prophetbot]] turn around and notice Niko. The camera will pan if the Prophetbot is off-screen then Prophetbot will say &quot;Ah!&quot; and move down until Niko is on the same horizontal line and then 1 tile left. Then the proper encounter starts."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" name="Glitches spawn" x="5488" y="1312">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+    <property name="thickness" value="3.0"/>
+   </properties>
+   <polygon points="0,0 16,0 16,-16 0,-16 0,0 16,0"/>
+  </object>
+  <object id="72" name="Glitches" x="5440" y="1296">
+   <properties>
+    <property name="description" value="After opening the safe and walking back some [[squares]] appear and scare Niko."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" name="Chess with Silver" x="3256" y="240">
+   <properties>
+    <property name="description">Before giving Niko the [[coin]] that will help the [[Rowbot]] remember the way to the [[Glen]], [[Silver]] asks for a game of chess to which Niko agrees.
+
+During the game, Silver opens up a bit about her history and explains that the cause of the sun's death was the decay of the world that won't stop after the sun is restored. Silver plays chess a lot with herself to pass the time so she easily wins the game.</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="120" name="Gasmask needed" x="1336" y="2032">
+   <properties>
+    <property name="description" value="The air in this area is too toxic for Niko to breathe without the [[gas mask]] equipped so they will exit it automatically."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="121" name="Gasmask needed" x="1792" y="1440">
+   <properties>
+    <property name="description" value="The air in this area is too toxic for Niko to breathe without the [[gas mask]] equipped so they will exit it automatically."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="154" name="Prophetbot encounter" x="2448" y="4752">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 16,0 16,192 0,192 0,0"/>
+  </object>
+  <object id="155" name="Prophetbot encounter" x="2576" y="4624">
+   <properties>
+    <property name="color" type="color" value="#ffff0000"/>
+   </properties>
+   <polygon points="0,0 -16,0 -16,64 0,64 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="npcs">
+  <object id="67" name="Prophetbot" x="2504.09" y="4738.82">
+   <properties>
+    <property name="description">The robot of the [[Prophet]], which was made to greet the messiah in their stead.
+
+When [[Niko]] gets close, [[Prophetbot]] notices the [[lightbulb]] and approaches Niko, excited to answer any questions the savior from the prophecy might have.
+
+Prophetbot can explain (all except &quot;the computer&quot; option are optional and can be skipped with Cancel key):
+
+1) The history and regions of the [[world]] and the spire that housed the old sun.
+
+2) The old and new [[sun]]s, the phosphor that stores their energy, and the reliance of the world on light for survival.
+
+3) The computer saying the name of the [[player]], who is revealed to be the god of the world. The Prophetbot will teach Niko to communicate with the player directly. This presents an opportunity for the player to change their name. Prophetbot will also encourage Niko to look for the player's guidance.
+
+4) Prophetbot doesn't know how Niko can go home, but their mission is to save the world.
+
+After answering the questions Prophetbot wishes Niko luck and starts wandering aimlessly.</property>
+    <property name="page" value="Prophetbot"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="68" name="Silver" x="3368" y="768">
+   <properties>
+    <property name="description">The Barrens' head engineer, that stayed when everyone else left the Barrens. Wanders aimlessly inside her cabin.
+
+A bit mean to Niko, surprised by the fact the messiah is a cat-looking child, but otherwise helpful, willing to help Niko leave the Barrens. Has the [[coin]] neccessary to make the [[Rowbot]] remember the way to the [[Glen]].
+
+Can explain the history of the [[spire]] and speculate that the force inside it is the Niko's way to return home.
+
+She will try to read the [[weird journal]] if you give it to her but she can't.</property>
+    <property name="page" value="Silver"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="puzzles">
+  <object id="60" name="Safe" x="5511.64" y="1350.91">
+   <properties>
+    <property name="description">A safe locked with a random 6 digit code which could be anything from 0 to 999999. The [[Entity]] will ask you to search for it in the Documents folder on your computer. The code is contained in the file &quot;INFORMATION.oneshot.txt&quot;
+
+
+The safe contains the [[gas mask]] and the [[weird journal]]. When the gas mask is equipped using the Equipment menu, Niko's can explore the natural gas vents area. The journal has no relevance until [[Refuge]] but you can show it to [[Silver]]. If you havent picked up the [[boots]] opening the safe also unlocks the equipment tutorial [[note]].</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="signs">
+  <object id="14" name="Cleaning solvent recipe" x="2359.97" y="4067.75">
+   <properties>
+    <property name="description">&lt;poem&gt;''Recipe for a simple cleaning solvent''
+''&lt;nowiki&gt;*&lt;/nowiki&gt;Note: wear hand protection''
+
+''Reagents:''
+''-Arobigo gas''
+''-An emulsifier (any viscous liquid)''
+
+''Steps:''
+''1) Place arobigo gas in a sealed container
+''2) Without breaking the seal, inject emulsifier
+into container; shake vigorously.
+
+''3) Use as soon as possible. 
+''If elements begin to seperate, further shaking 
+is required.''&lt;/poem&gt;</property>
+    <property name="page" value="Bottle of acid"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="15" name="&quot;Ocean note&quot;" x="2631.91" y="4067.55">
+   <properties>
+    <property name="description">&lt;poem&gt;''I remember being taught in school
+''about how the waters surrounding
+''the forest stretched until the boundries
+''of space.
+
+''Of course, now they say it's the barrens.
+''But I still wonder...
+''What's beyond the void of the sheer cliffs?
+''Is there a whole undiscovered world below us?
+
+''I don't like thinking about it.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" name="Shrimp jar" x="2343.88" y="3949.81">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" name="&quot;Three Laws of Robotics&quot;" x="2295.75" y="3859.63">
+   <properties>
+    <property name="description">&lt;poem&gt;''1. A robot may not injure a human being 
+''or, through inaction, allow a human being 
+''to come to harm.
+
+''2. A robot must obey the orders given to
+''it by human beings, except where such
+''orders would conflict with the First Law.
+
+''3. A robot must protect its own existence
+''as long as such protection does not
+''conflict with the First or Second Law.
+&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="18" name="Map of the world" x="2375.13" y="3859.83">
+   <properties>
+    <property name="description" value="[[file:map.png]]"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="&quot;Solar batteries restocked note&quot;" x="2551.45" y="3859.64">
+   <properties>
+    <property name="description" value="''SOLAR BATTERIES RESTOCKED''"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="&quot;Natural Resources of The Barrens&quot;" x="2583.41" y="3859.94">
+   <properties>
+    <property name="description">&lt;poem&gt;''Natural Resources of The Barrens
+''[harvesting locations]
+
+''-Blue Phosphor
+''   -Mineral (Ubiquitous)
+''   -Organic/Biophosphor (Southeast)
+''-Biophosphor sap (Southeast, uncommon)
+
+''-Blue limestone (Ubiquitous)
+''-Bauxite (North)
+''-Iron ore (North)
+''-Shale rock (North)
+
+''-Arobigo Gas (Northwest)
+''-
+
+''...
+
+''(the list goes on.)&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Shrimp jar" x="2727.83" y="3885.91">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="&quot;Hiring&quot;" x="2759.75" y="3859.95">
+   <properties>
+    <property name="description">&lt;poem&gt;''Need extra cash?
+''Start working at the cliffs today!
+''Five positions available.
+''First come, first serve.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="Shrimp jar" x="2391.94" y="3245.94">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="Shrimp jar" x="2471.75" y="3149.94">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="25" name="Shrimp jar charges the battery" x="2536" y="3165.94">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+Light from this jar of shrimp is 
+charging the battery.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="26" name="Heavy battery" x="2519.14" y="3164.93">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+This appears to be a battery, but...
+It's too heavy to take...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="27" name="Self-charging battery note" x="2503.3" y="3171.92">
+   <properties>
+    <property name="description">&lt;poem&gt;''REVOLUTIONARY!
+''SELF-CHARGING SOLAR BATTERY
+''(5 year warranty included)
+
+''Simply place your SELF-CHARGING BATTERY
+''in full sunlight to charge at an incredible rate.
+''No external power needed.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" name="&quot;Miner accident&quot;" x="2407.3" y="3155.91">
+   <properties>
+    <property name="description">&lt;poem&gt;''XX/XX/XX
+
+''Another miner fell into the abyss
+''today.
+
+''That's the THIRD this week.
+''Maybe it's not much of a concern for
+''you, but we need better safety
+''conditions. This is unacceptable.
+
+''Please tell that girl to hurry
+''the hell up with those robots.
+''We can't afford to lose any more
+''men to easily preventable accidents.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="Mom letter" x="4999.36" y="2915.73">
+   <properties>
+    <property name="description">&lt;poem&gt;''Hey sweetie,
+
+''Six more weeks until you can come home!
+''Are you excited?
+
+''Surely you're sick of living in that awful 
+''capsule wall... thing!
+''I bet you can't wait to sleep in a real bed and
+''eat real food again!
+
+''Write back soon!
+
+                          ''-love, mom.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="Robot beyond repair" x="5079.09" y="2922.79">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" name="Solar panel" x="5272.01" y="3023.94">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It looks like a solar panel.
+I think by just being near it,
+the lightbulb is powering these
+machines.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="Mineral refinery" x="5259.64" y="3007.91">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's labeled &quot;mineral refinery&quot;.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="33" name="&quot;Cleaning properties of the acid gas&quot;" x="5095.09" y="1443.91">
+   <properties>
+    <property name="description">&lt;poem&gt;''There's something weird about
+''the robots who get sent to work
+''near the vents.
+
+''They always look... less rusty and
+''shinier than even the newest models.
+''Is that a result of the acid gas? Or am
+''I just seeing things?&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" name="&quot;The Barrens is a gift&quot;" x="4967.22" y="1363.96">
+   <properties>
+    <property name="description">&lt;poem&gt;''XX/XX/XX
+
+''Bah! &quot;Destructive and unsustainable&quot; my foot!
+
+''Folks from the inner city complain about
+''anything if they're bored to death in their nice
+''comfty homes.
+
+''Don't they know their city wouldn't be the way
+''it is, if it weren't for this quarry?
+
+''People seem to forget that The Barrens is
+''a gift, and gifts aren't meant to just sit there
+''and collect dust!
+''Gifts need to be opened.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="&quot;Death note&quot;" x="5063.09" y="1123.82">
+   <properties>
+    <property name="description">&lt;poem&gt;''
+''THE SAVIOR
+''IS NOT
+''COMING AND I AM 
+
+''AFRAID OF THE
+''DARKNESS AND THE DARKNESS
+''WILL ONLY GET
+''DARKER
+
+''AND DARKER AND 
+''DARKER
+
+''TAKING MY LEAVE NOW. FAREWELL
+
+''TO ALL
+
+''I AM SO SORRY
+[[File:Niko.png]]
+...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="Robot beyond repair" x="2908.18" y="1407.18">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" name="Robot beyond repair" x="2983.63" y="1195">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="Robot beyond repair" x="2971.5" y="1215.88">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="Robot beyond repair" x="3000.13" y="1227.38">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="Robot beyond repair" x="3033.75" y="1212.75">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" name="Robot beyond repair" x="3045.13" y="1229.38">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+It's beyond repair...&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="Shrimp jar" x="3592.18" y="797.818">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="43" name="Shrimp jar" x="3591.82" y="765.818">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="44" name="Shrimp jar" x="3432" y="733.875">
+   <properties>
+    <property name="description">&lt;poem&gt;Insert niko face 1
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" name="Shrimp jar" x="3448.06" y="733.938">
+   <properties>
+    <property name="description">&lt;poem&gt;Insert niko face 1
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" name="Shrimp jar" x="3239.94" y="717.875">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="47" name="Shrimp jar" x="3256" y="717.938">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="48" name="Shrimp jar" x="3272" y="717.875">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+There's a lot of tiny shrimp swimming
+in this jar.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="49" name="Chess set" x="3256.09" y="745.818">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+A chess set.
+Guess it must be pretty
+boring here to be alone.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="50" name="&quot;Vents, shrimp and gas masks note&quot;" x="3479.38" y="771.75">
+   <properties>
+    <property name="description">&lt;poem&gt;''The amount of noxious fumes emitted by the 
+''natural gas vents caught our team off-guard.
+''With such a high concentration, it seemed
+''impossible that anything with lungs could exist.
+
+''It remained quite a mystery until our
+''scientists realized the shrimp scattered
+''in the pools were actually consuming it.
+
+''Without those shrimp, life wouldn't be.
+''It's kind of depressing to think that we
+''can't thank them.
+
+''Still, we wore masks to be safe, especially
+''around active vent sites.
+''The replacement of our workforce by robots
+''soon rendered masks unecessary.
+
+''I wonder what happened to them all? 
+''I can't even remember where I placed mine.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="51" name="Kip's letter" x="3511.28" y="771.969">
+   <properties>
+    <property name="description">&lt;poem&gt;''Dear Silver,
+
+''I heard the news about the mine.
+''I can't imagine what you're feeling.
+
+''It's been two weeks.
+''I know it must be hard, but you
+''must leave soon too. It's only a matter
+''of time before the rowbots are recalled.
+
+''At least let me know you
+''got my message, okay?
+
+''-Kip&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="Inaccessible dock view" x="1496" y="2312">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="Dock view" x="1464" y="2536">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="Dock view" x="1432" y="2712">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" name="Dock view" x="1448" y="2792">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="56" name="Dock view" x="1464" y="2904">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" name="Dock view" x="1528" y="3192">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="Dock view" x="1432" y="3320">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="Inaccessible dock view" x="1432" y="3416">
+   <properties>
+    <property name="description">&lt;poem&gt;[[File:Niko.png]]
+The horizon glows a faint green.&lt;/poem&gt;</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="items">
+  <object id="1" name="boots" x="1209" y="4340.96">
+   <properties>
+    <property name="description" value="The boots are found here. When they are equipped using the Equipment menu, Niko's moves at a much higher speed. If you havent opened the safe it also unlocks the equipment tutorial [[note]]."/>
+    <property name="page" value="Boots"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" name="screwdriver" x="2552.5" y="3923">
+   <properties>
+    <property name="description" value="A small blue glimmer shines on a shelf. It is a screwdriver that can be combined with the [[camera]] to get the [[lens]] out of it. It can be picked up from both sides of the shelf."/>
+    <property name="page" value="Screwdriver"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="3" name="broken battery" x="2536" y="3888">
+   <properties>
+    <property name="description" value="A locked box with a small flickering sun symbol on its side. Contains a broken solar battery. Can be opened using the [[crowbar]]."/>
+    <property name="page" value="Broken battery"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="metal rod" x="3529" y="4142.63">
+   <properties>
+    <property name="description" value="A metal rod is found here. It can be used on the &quot;garbage compactor&quot; machine at the Dormitories to make the [[crowbar]]."/>
+    <property name="page" value="Metal rod"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="sponge" x="4182.55" y="4753.09">
+   <properties>
+    <property name="description" value="A cleaning sponge is found here. It can be combined with the [[bottle of acid]] to make the [[wet sponge]] if the [[rubber gloves]] are equipped."/>
+    <property name="page" value="Sponge"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" name="viscous syringe" x="4416" y="4544">
+   <properties>
+    <property name="description" value="A pond full of biophosphor sap. The sap liquid is viscous enough to be used as emulsifier for the cleaning solution recipe described on a note inside the [[Outpost]]. You can fill the [[empty syringe]] with sap to make the viscous syringe which can be combined with the [[bottle of smoke]] to make the [[bottle of acid]]."/>
+    <property name="page" value="Viscous syringe"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="rubber gloves" x="5253.1" y="3041.92">
+   <properties>
+    <property name="description" value="A pair of rubber gloves is found here. When they are equipped using the Equipment menu, Niko can combine the [[sponge]] with the [[bottle of acid]] and use the resulting [[wet sponge]] to clean the [[Rowbot]]. "/>
+    <property name="page" value="Rubber gloves"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="crowbar" x="5284.75" y="3013.81">
+   <properties>
+    <property name="description">A garbage compactor machine specifically designed for
+heavy-duty crushing of metals. Can be used to turn the [[metal rod]] into a [[crowbar]] which can open the box inside the Outpost.</property>
+    <property name="page" value="Crowbar"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="camera" x="3000" y="1200.57">
+   <properties>
+    <property name="description" value="A broken camera is found here. It can be combined with the [[screwdriver]] to get the [[lens]]."/>
+    <property name="page" value="Camera"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="empty syringe" x="3593" y="736.894">
+   <properties>
+    <property name="description" value="A box containing broken and rusted medical tools. Niko will take a plastic [[empty syringe]] from it and the box will disappear. The syringe can be filled with viscous liquid of the [[shrimp swamp]] bubble pond to get the [[viscous syringe]]."/>
+    <property name="page" value="Empty syringe"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" name="bottle of smoke" x="1543.63" y="1713.38">
+   <properties>
+    <property name="description" value="A small Arobigo gas vent Niko can reach. The [[empty bottle]] can be filled with the gas here to make the [[bottle of smoke]] for the cleaning solution recipe described on a note inside the [[Outpost]]."/>
+    <property name="page" value="Bottle of smoke"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="connections">
+  <object id="78" name="roadways train door" x="1216" y="4336">
+   <polygon points="0,0 -800,0 0,0"/>
+  </object>
+  <object id="96" name="outpost door" x="2480" y="4752">
+   <polygon points="0,0 0,-624 0,0"/>
+  </object>
+  <object id="97" name="backroom door" x="2480" y="4048">
+   <polygon points="0,0 0,-624 0,0"/>
+  </object>
+  <object id="98" name="outpost train door" x="2720" y="4848">
+   <polygon points="0,0 624,-720 0,0"/>
+  </object>
+  <object id="99" name="Silver's cabin door" x="3456" y="1312">
+   <polygon points="0,0 0,-464 0,0"/>
+  </object>
+  <object id="100" name="dock train door" x="1200" y="2736">
+   <polygon points="0,0 -784,0 0,0"/>
+  </object>
+  <object id="101" x="3360" y="800">
+   <polygon points="0,0 -112,-528 0,0"/>
+  </object>
+  <object id="117" name="dock transition" x="1424" y="2064">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -176,0 -176,-16 0,-16 0,0 -176,0 0,0"/>
+  </object>
+  <object id="118" name="dock transition" x="1336" y="2064">
+   <properties>
+    <property name="description" value="Tiles (23, 58), (33, 58) and every tile in-between trigger fade-to-black transition to the dock map if Niko is facing down."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="122" name="natural gas vents transition" x="1424" y="2464">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -176,0 -176,-16 0,-16 0,0 -176,0 0,0"/>
+  </object>
+  <object id="123" name="natural gas vents transition" x="1336" y="2448">
+   <properties>
+    <property name="description" value="Every tile with y=12 triggers fade-to-black transition to the vents map if Niko is facing up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="124" name="mining facility transition" x="1808" y="1376">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,128 0,128 0,0 16,0 0,0"/>
+  </object>
+  <object id="133" name="mining facility transition" x="1824" y="1440">
+   <properties>
+    <property name="description" value="Every tile with x=58 triggers fade-to-black transition to the quarry/mining facility map if Niko is facing right."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="134" name="natural gas vents transition" x="2784" y="1376">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,128 0,128 0,0 16,0 0,0"/>
+  </object>
+  <object id="136" name="natural gas vents transition" x="2784" y="1440">
+   <properties>
+    <property name="description" value="Every tile with x=12 triggers fade-to-black transition to the vents map if Niko is facing left."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="137" name="cliffs transition" x="3520" y="1392">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,112 0,112 0,0"/>
+  </object>
+  <object id="138" name="cliffs transition" x="3536" y="1448">
+   <properties>
+    <property name="description" value="Every tile with x=58 triggers fade-to-black transition to the cliffs map if Niko is facing right."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="140" name="mining facility transition" x="4480" y="1392">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,112 0,112 0,0"/>
+  </object>
+  <object id="141" name="cliffs transition" x="4480" y="1448">
+   <properties>
+    <property name="description" value="Every tile with x=12 triggers fade-to-black transition to the quarry/mining facility map if Niko is facing left."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" name="dormitories transition" x="5184" y="1936">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,16 -208,16 -208,0 0,0"/>
+  </object>
+  <object id="143" name="dormitories transition" x="5080" y="1952">
+   <properties>
+    <property name="description" value="Every tile with y=58 triggers fade-to-black transition to the hotel/dormitories map if Niko is facing down."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" name="cliffs transition" x="5184" y="2640">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 0,16 -208,16 -208,0 0,0"/>
+  </object>
+  <object id="145" name="cliffs transition" x="5080" y="2640">
+   <properties>
+    <property name="description" value="Every tile with y=12 triggers fade-to-black transition to the cliffs map if Niko is facing up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="146" name="shrimp swamp transition" x="4896" y="3552">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 320,0 320,-16 0,-16 0,0"/>
+  </object>
+  <object id="147" name="shrimp swamp transition" x="5056" y="3552">
+   <properties>
+    <property name="description" value="Every tile with y=68 triggers fade-to-black transition to the shrimp swamp map if Niko is facing down."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="148" name="dormitories transition" x="4896" y="4256">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 320,0 320,-16 0,-16 0,0"/>
+  </object>
+  <object id="149" name="dormitories transition" x="5056" y="4240">
+   <properties>
+    <property name="description" value="Every tile with y=12 triggers fade-to-black transition to the hotel/dormitories map if Niko is facing up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" name="outpost transition" x="3968" y="4752">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,288 0,288 0,0"/>
+  </object>
+  <object id="151" name="outpost transition" x="3968" y="4896">
+   <properties>
+    <property name="description" value="Every tile with x=12 triggers fade-to-black transition to the outpost map if Niko is facing left."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="152" name="shrimp swamp transition" x="3200" y="4752">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,288 0,288 0,0"/>
+  </object>
+  <object id="153" name="shrimp swamp transition" x="3216" y="4896">
+   <properties>
+    <property name="description" value="Every tile with x=68 triggers fade-to-black transition to the shrimp swamp map if Niko is facing right."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="156" name="roadways transition" x="2304" y="4960">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,-320 0,-320 0,0"/>
+  </object>
+  <object id="157" name="roadways transition" x="2304" y="4800">
+   <properties>
+    <property name="description" value="Every tile with x=12 triggers fade-to-black transition to the train/roadways map if Niko is facing left."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="158" name="outpost transition" x="1776" y="4960">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 16,0 16,-320 0,-320 0,0"/>
+  </object>
+  <object id="159" name="outpost transition" x="1792" y="4800">
+   <properties>
+    <property name="description" value="Every tile with x=58 triggers fade-to-black transition to the outpost map if Niko is facing right."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="160" name="roadways transition" x="1360" y="3360">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -336,0 -336,-16 0,-16 0,0"/>
+  </object>
+  <object id="161" name="roadways transition" x="1192" y="3360">
+   <properties>
+    <property name="description" value="Every tile with y=68 triggers fade-to-black transition to the train/roadways map if Niko is facing down."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="162" name="dock transition" x="1360" y="3760">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+   </properties>
+   <polygon points="0,0 -336,0 -336,-16 0,-16 0,0"/>
+  </object>
+  <object id="163" name="dock transition" x="1192" y="3744">
+   <properties>
+    <property name="description" value="Every tile with y=12 triggers fade-to-black transition to the dock map if Niko is facing up."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" name="Rowbot" x="1335.64" y="3013.18">
+   <properties>
+    <property name="description">Rowbot #310, unpowered, rusty and circuits fried. Needs to be powered by the [[charged battery]], cleaned with the [[wet sponge]] and reminded where the [[Glen]] is with the [[coin]] to be able to transport Niko there. Niko also needs to sleep at least once to proceed.
+
+When the Rowbot is unpowered you get an opportunity to prank Niko by saying you're not here.</property>
+    <property name="page" value="Rowbot"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="ftpoints">
+  <object id="102" name="roadways" x="1224" y="4344">
+   <point/>
+  </object>
+  <object id="103" name="outpost" x="2424" y="4760">
+   <point/>
+  </object>
+  <object id="105" name="shrimp swamp" x="4440" y="4856">
+   <point/>
+  </object>
+  <object id="109" name="dormitories" x="5096" y="3176">
+   <point/>
+  </object>
+  <object id="110" name="cliffs" x="4936" y="1608">
+   <point/>
+  </object>
+  <object id="111" name="mining facility" x="3448" y="1320">
+   <point/>
+  </object>
+  <object id="112" name="natural gas vents" x="1544" y="1608">
+   <properties>
+    <property name="description" value="Equipping the [[gas mask]] is required to use this fast travel point."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="dock" x="1208" y="2744">
+   <point/>
+  </object>
+  <object id="104" name="Before any fast travel in any zone Niko gets placed here" x="3176" y="2920">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="beds">
+  <object id="114" name="bed" x="304" y="2768">
+   <properties>
+    <property name="description">Allows to quit the game without killing Niko. Meeting the [[Prophetbot]] is required to use this bed. Interacting with this bed unlocks the &quot;Saving the game&quot; [[note]].
+
+Using this bed at least once is required to leave the Barrens. The bed can be used any amount of times. Using beds unequips all equipped items except the [[boots]].
+
+After the first time sleeping in this bed Niko will have a dream about the wheat field surrounding their home village. Niko will be excited to tell you more about their home and will ask you about yours.</property>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
